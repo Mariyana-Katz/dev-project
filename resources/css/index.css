@@ -48,6 +48,17 @@
 
 }
 
+.avatar{
+ background-image: url("../images/cakesandbakeslogo.jpg");   /*for the url part .. means go up one folder*/
+ background-size: cover ;
+ height: 50px;
+ width: 50px;
+ border-radius: 50%; /*  I know that this is a div use that image to cover the background space*/
+ display: inline-block;
+ vertical-align: middle; /*allign the picture in the middle */
+
+}
+
 
 
 
