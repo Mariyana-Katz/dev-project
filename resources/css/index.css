@@ -1,20 +1,75 @@
+
+.navbar{
+    background-color: white;
+    position: fixed;/*makes the navbar static */
+    top: 0; /* the navbar is on the top of the page*/
+    width: 100%;
+
+}
+
+.navbar li{
+    display: inline-block; /* put the elements of the navbar in horizontal order*/
+    padding: 0 20px;
+
+}
+
+/*apply for all of the a from the navbar*/
+.navbar a{
+    text-decoration: none;
+    color: rgb(126, 2, 99);
+
+}
+.button{
+    padding: 12px 24px; 
+    font-size: 18px;  
+}
+
+#Logo-picture{
+ 
+    /* giving a shadow to the image */
+    filter: drop-shadow(6px 6px 6px rgb(126, 2, 99)); 
+
+}
+
+.logo-section{
+
+    padding: 20px 50px;
+}
+
+#Cakes-and-bakes{
+    color:rgb(126, 2, 99);
+    font-size: 80px;
+
+}
+
+
+#logo ul{
+    list-style-type: none;
+
+}
+
+
+
+
+
 .banner{
     background-image: url("https://www.shutterstock.com/image-vector/pastry-sweet-bakery-seamless-pattern-600nw-2143884193.jpg") ;
     color: rgb(126, 2, 99);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
-    margin-top: 75px;
+    margin-top: 50px;
     text-align: center;
     padding: 100px 0; 
     
 
 }
 
-.Logo-picture{
-   
-}
 
-.button{
-    padding: 12px 24px; 
-    font-size: 18px;  
+
+
+
+
+
+.bold{
+    font-weight: 900;
 }
