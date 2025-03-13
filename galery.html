@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galery</title>
+    <link rel="stylesheet" href="./resources/css/galery.css">
+</head>
+<body>
+
+      <!--Banner section  -->
+        <div class="banner" class="bold">
+            <h1>Cakes and Bakes by MaryAnna</h1>
+            <img id="Logo-picture" src="./resources/images/cakesandbakeslogo.jpg">
+        
+        </div>
+
+
+        <div>
+            <p id="title">Galery</p>
+        </div>
+
+        <div class="gallery">
+            <img src="https://mariqnak8059894.wildapricot.org/resources/Pictures/pics/24.jpg" alt="Image 1" onclick="openLightbox(this)">
+            <img src="https://mariqnak8059894.wildapricot.org/resources/Pictures/pics/25.jpg" alt="Image 2" onclick="openLightbox(this)">
+            <img src="https://mariqnak8059894.wildapricot.org/resources/Pictures/pics/26.jpg" alt="Image 3" onclick="openLightbox(this)">
+            <img src="https://mariqnak8059894.wildapricot.org/resources/Pictures/pics/29.jpg" alt="Image 4" onclick="openLightbox(this)">
+            <img src="https://mariqnak8059894.wildapricot.org/resources/Pictures/pics/cookiesc.jpg" alt="Image 5" onclick="openLightbox(this)">
+            
+        </div>
+
+        <!-- Lightbox -->
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="close">&times;</span>
+            <img id="lightbox-img" src="" alt="">
+            
+        
+        </div>
+</body>
+</html>

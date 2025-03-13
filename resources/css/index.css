@@ -19,7 +19,7 @@
     color: rgb(126, 2, 99);
 
 }
-.button{
+#button{
     padding: 12px 24px; 
     font-size: 18px;  
 }
@@ -34,6 +34,7 @@
 .logo-section{
 
     padding: 20px 50px;
+    font-size: 20px;
 }
 
 #Cakes-and-bakes{
@@ -60,9 +61,6 @@
 }
 
 
-
-
-
 .banner{
     background-image: url("https://www.shutterstock.com/image-vector/pastry-sweet-bakery-seamless-pattern-600nw-2143884193.jpg") ;
     color: rgb(126, 2, 99);
@@ -74,11 +72,6 @@
     
 
 }
-
-
-
-
-
 
 
 .bold{
