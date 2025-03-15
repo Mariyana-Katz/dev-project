@@ -1,0 +1,32 @@
+
+
+/*apply for all of the a from the navbar*/
+.navbar a{
+    text-decoration: none;
+    color: rgb(126, 2, 99);
+
+}
+
+.navbar li{
+    display: inline-block; /* put the elements of the navbar in horizontal order*/
+    padding: 0 20px;
+
+}
+
+/*apply for all of the a from the navbar*/
+.navbar a{
+    text-decoration: none;
+    color: rgb(126, 2, 99);
+
+}
+
+
+.banner{
+    background-image: url("https://www.shutterstock.com/image-vector/pastry-sweet-bakery-seamless-pattern-600nw-2143884193.jpg") ;
+    color: rgb(126, 2, 99);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin-top: 10px;
+    text-align: center;
+    padding: 100px 0; 
+    }
