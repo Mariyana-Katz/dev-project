@@ -29,5 +29,121 @@
     font-size: large;
     margin-top: 10px;
     text-align: center;
-    padding: 100px 0; 
+    padding: 10px 0; 
 }
+
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Form Container */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Headings */
+h1 {
+    color: #d9534f;
+    font-size: 24px;
+}
+
+/* Description */
+p.description {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+    padding: 10px;
+    background: #ffff;
+    border-radius: 5px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+/* Inputs and Select Fields */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+    /* position:relative; */
+    display: inline-block;
+}
+
+/* Fondant Section */
+.fondant span {
+    font-weight: bold;
+    
+}.fondant {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: start;
+}
+
+
+.fondant input[type="radio"],
+.fondant label {
+    display: inline-block;
+    margin: 0;
+}
+
+/* Submit Button */
+button {
+    background-color: #ff7b7b;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff5252;
+}
+
+/* Add Spacing for Sections */
+section {
+    margin-bottom: 15px;
+    
+}
+
+/* Line Break Style */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 15px 0;
+}
+
+/* Logo Styling */
+/* #logo {
+    max-width: 150px;
+    display: block;
+    margin: 10px auto;
+} */

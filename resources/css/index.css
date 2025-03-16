@@ -19,6 +19,8 @@
     color: rgb(126, 2, 99);
 
 }
+
+
 #button{
     padding: 12px 24px; 
     font-size: 18px;  
@@ -66,12 +68,10 @@
     color: rgb(126, 2, 99);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
-    margin-top: 50px;
+    margin-top: 10px;
     text-align: center;
-    padding: 100px 0; 
-    
-
-}
+    padding: 10px 0; 
+    }
 
 
 .bold{
