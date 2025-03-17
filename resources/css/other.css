@@ -30,3 +30,8 @@
     text-align: center;
     padding: 10px 0; 
     }
+
+    #button{
+        padding: 12px 24px; 
+        font-size: 18px;  
+    }

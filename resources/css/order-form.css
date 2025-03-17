@@ -36,7 +36,7 @@
 /* General Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-image: url("https://img.freepik.com/free-vector/golden-hexagonal-style-pattern_1409-1045.jpg?t=st=1742172812~exp=1742176412~hmac=686ac456d4a84499698d54f528fc01a89959dab7f61842c1f9e7866a41b0f9e7&w=1060");
     text-align: center;
     padding: 20px;
 }
@@ -79,13 +79,13 @@ form {
 
 /* Styling on Hover */
 .date input[type="date"]:hover {
-    border-color: #ff7b7b;
+    border-color:rgb(126, 2, 99);
 }
 
 
 /* Form Headings */
 h1 {
-    color: #d9534f;
+    color:rgb(126, 2, 99);
     font-size: 24px;
 }
 
@@ -145,7 +145,7 @@ input[type="radio"] {
 
 /* Submit Button */
 button {
-    background-color: #ff7b7b;
+    background-color: rgb(126, 2, 99);
     color: white;
     padding: 10px;
     border: none;
@@ -156,7 +156,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff5252;
+    background-color:rgb(126, 2, 99);
 }
 
 /* Add Spacing for Sections */
@@ -171,6 +171,17 @@ hr {
     height: 1px;
     background: #ddd;
     margin: 15px 0;
+}
+
+.button{
+    padding: 12 24;
+    margin: 0 220px;
+    /* background-color: rgb(126, 2, 99); */
+    border: none;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 /* Logo Styling */

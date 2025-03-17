@@ -40,3 +40,8 @@
         color:rgb(126, 2, 99) ;
         text-align: center;
     }
+
+    #button{
+        padding: 12px 24px; 
+        font-size: 18px;  
+    }

@@ -13,7 +13,7 @@
     <nav class="navbar bold">
         <ul>
            <li><a href="index.html">Home</a></li>
-           <li><a href="product_list.html">Product list</a></li>
+           <li><a href="menu.html">Menu</a></li>
            <li><a href="galery.html">Galery</a></li>
            <li><a href="Place_an_order.html">Place an order</a></li>
            <li><a href="other.html">Other</a></li>
@@ -28,6 +28,15 @@
     <h3>Have a sweet day!</h3>
     <button id="button">Order today!</button>
 </div>
+
+
+
+<script>
+    document.getElementById('button').addEventListener('click', function() {
+           window.location.href = "order-form.html"; // have to be change to order form html page
+       });
+
+</script> 
     
 </body>
 </html>

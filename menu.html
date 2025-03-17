@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>menu</title>
+    <link rel="stylesheet" href="./resources/css/menu.css" />
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav class="navbar bold">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="galery.html">Galery</a></li>
+        <li><a href="Place_an_order.html">Place an order</a></li>
+        <li><a href="other.html">Other</a></li>
+      </ul>
+    </nav>
+
+    <!--Banner section  -->
+    <div class="banner" class="bold">
+      <h1>Cakes and Bakes by MaryAnna</h1>
+      <img id="Logo-picture" src="./resources/images/cakesandbakeslogo.jpg" />
+      <h3>Have a sweet day!</h3>
+      <button id="button">Order today!</button>
+    </div>
+    <div>
+      <p id="title">Menu</p>
+    </div>
+
+    <div>
+        <P class="cake-menu">Cake Menu</P>
+        <ol>
+            <li>Vanilla Cake</li>
+            <li>Chocolate Cake</li>
+            <li>Marble Cake</li>
+            <li>Vanilla  Chocolate Chip Cake</li>
+            <li>Red Velvet Cake</li>
+            <li>Wedding Cake</li>
+            <li>Carrot Cake</li>
+            <li>Humingburd Cake</li>
+            <li>Lemon Cake</li>
+            <li>Strawberry Cake</li>
+            <li>Banana Cake</li>
+          
+
+        </ol>
+    </div>
+
+    <script>
+      document.getElementById('button').addEventListener('click', function() {
+             window.location.href = "order-form.html"; // have to be change to order form html page
+         });
+ 
+ </script> 
+
+  </body>
+</html>

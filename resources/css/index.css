@@ -42,7 +42,9 @@
 #Cakes-and-bakes{
     color:rgb(126, 2, 99);
     font-size: 80px;
-
+    text-align: center;
+    align-items: center;
+     
 }
 
 
@@ -76,4 +78,7 @@
 
 .bold{
     font-weight: 900;
+    align-items: center;
 }
+
+
