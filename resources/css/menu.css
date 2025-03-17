@@ -45,3 +45,42 @@
         padding: 12px 24px; 
         font-size: 18px;  
     }
+
+    .menu-container {
+        display: flex; /* Aligns all menus in one row */
+        justify-content: space-between; /* Spaces them evenly */
+        align-items: flex-start; /* Ensures all menus start at the top */
+        gap: 20px; /* Adds space between them */
+        flex-wrap: nowrap; /* Prevents wrapping */
+        font-size: 20px;
+    }
+    
+    .bold {
+        flex: 1; /* Makes all menus take equal width */
+        min-height: 100%; /* Ensures they all align properly */
+        padding: 15px;
+        background: #f9f9f9;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .menu{
+        font-size: 40px;
+        font-weight: 100;
+
+    }
+
+    .img{
+        width: 100px; /* Set desired width */
+        height: auto; /* Keeps aspect ratio */
+        float: left;
+        
+    }
+
+    .description{
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+
+
+    }
