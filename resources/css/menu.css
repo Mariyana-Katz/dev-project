@@ -58,8 +58,6 @@
     .bold {
         flex: 1; /* Makes all menus take equal width */
         min-height: 100%; /* Ensures they all align properly */
-        padding: 15px;
-        background: #f9f9f9;
         border-radius: 5px;
         box-sizing: border-box;
     }
