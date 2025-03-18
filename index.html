@@ -68,6 +68,38 @@
         </div>
     </div>
 
+        <br>
+        <!-- slideshow container -->
+<div class="slideshow-container">
+            <!-- full width image -->
+             <div class="mySlideshow img">
+                <img src="https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/482031744_1145085044079417_5336993094155102227_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=111&ccb=1-7&_nc_sid=fe5ecc&_nc_ohc=9cmCzdMMyxkQ7kNvgFvnCEh&_nc_oc=AdkIrwWCkdHMKqE2ayZZBDUxC_N0jzbuqV4jCQDlr6RwjEw1QgBkGAyDqNyzkCA900U&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=VInxaHg0W1lHzqS1XA8WIg&oh=00_AYFeiQj6oUT0K5o635sxOuMR-Nixk1oSD3oeCMYdT10V4A&oe=67DF9956" style="width:100%">
+             </div>
+             <div class="mySlideshow img">
+                <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/470189881_1080225867232002_5106476931789822485_n.jpg?stp=c268.0.1512.1512a_dst-jpg_s206x206_tt6&_nc_cat=108&ccb=1-7&_nc_sid=50ad20&_nc_ohc=kxOPiW4gTR8Q7kNvgHF4lzO&_nc_oc=AdkDO_cEv8iz-20v71bBp96kQ1bidvhBqUamGLxIrpsyCH8UxQFFJqQKAMJfxBn54Cg&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=c2iGSdSiL-xIzvgFS3UIug&oh=00_AYEJ4IfJDYqvpG7RrWlQB0eutQpHyZZIWq79AP6LqH-h-g&oe=67DF9F74" style="width:100%">
+             </div>
+
+             <div class="mySlideshow img">
+                <img src="https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/477599191_1121779686409953_6776946954127690601_n.jpg?stp=c0.105.643.643a_dst-jpg_s206x206_tt6&_nc_cat=109&ccb=1-7&_nc_sid=50ad20&_nc_ohc=GqsRa2Tcqq8Q7kNvgE3Oi2h&_nc_oc=AdmZNBzRV3NJvySsYIhTDvpxVzCpn2JfPSu4GS2byPZHA5ui9dEtGJtNCfjCPWyl44M&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=OAbM65UR3eG16xSpjj_-7A&oh=00_AYEkt-0mVoZ0qN61j7FlmuwDOEhb5d6El0BrbMIU2PdIzg&oe=67DF95F8" style="width:100%">
+             </div>
+             <div class="mySlideshow img">
+                <img src="https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/481171212_1136672071587381_8223016278466537442_n.jpg?stp=c0.148.952.952a_dst-jpg_s206x206_tt6&_nc_cat=109&ccb=1-7&_nc_sid=50ad20&_nc_ohc=O0O0-zXYT1YQ7kNvgHivaDC&_nc_oc=AdlYeK4SkdPTsF1T9AfyuNLtmrjt-ooHJybUAYx3L9oioIwehfgn_xLUs5t1XfzPBr0&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=Aap011G3zp25e7S7uAukmw&oh=00_AYFj1XsmPA71mQ1hrhFtbpFWcEE3XcSmLHt9-rNJrT8euw&oe=67DFACC6" style="width:100%">
+             </div>
+
+             <div class="mySlideshow img">
+                <img src="https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/476423629_1121783263076262_8890078048203344574_n.jpg?stp=c0.118.602.602a_dst-jpg_s206x206_tt6&_nc_cat=100&ccb=1-7&_nc_sid=50ad20&_nc_ohc=DwGH-OV-vLYQ7kNvgHZ6Mlz&_nc_oc=Adnee8HDWjh12uqY17d94ocwLJGgBeM80s9aVznPYflmtnAsXZ0w3beXfuiZZ3zRCek&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=w61IJyNyNpga-Mli9lvDvA&oh=00_AYGBVMtx3pz3OKysVd3D9pcHWZayWFtEi2WffBxFZjCOIg&oe=67DF9ADA" style="width:100%">
+             </div>
+
+
+
+        
+        <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
 <footer>
     <div class="footer-container">
         <div class="contact-info">
@@ -92,7 +124,45 @@
             window.location.href = "order-form.html"; // have to be change to order form html page
         });
 
-        document.getElementById
+        
+        let slideIndex = 0;
+
+function showSlides() {
+    let slides = document.getElementsByClassName("mySlideshow");
+    
+    // Hide all slides
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    // Move to the next slide
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }  
+
+    slides[slideIndex - 1].style.display = "block";  
+
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+
+// Function for next/previous controls
+function plusSlides(n) {
+    slideIndex += n - 1; // Adjust index correctly
+    let slides = document.getElementsByClassName("mySlideshow");
+
+    if (slideIndex >= slides.length) {
+        slideIndex = 0;
+    } else if (slideIndex < 0) {
+        slideIndex = slides.length - 1;
+    }
+
+    showSlides();
+}
+
+// Start slideshow when page loads
+document.addEventListener("DOMContentLoaded", () => {
+    showSlides();
+});
+
 
 </script> 
 </body>
