@@ -82,3 +82,62 @@
 
 
     }
+
+    footer{
+        background-color: bisque;
+        color: rgb(126, 2, 99);
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .footer-container{
+        display: flex;
+        justify-content: space-around;
+        /* items wrap to a new row if needed */
+        flex-wrap: wrap;
+        padding: 40px;
+        max-width: 900px;
+        margin: -40px 0; 
+    }
+    
+    .contact-info, .social-media{
+    margin: 10px;
+    text-align: left;
+    
+    }
+    .contact-info h3, .social-media h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .contact-info p {
+        margin: 5px 0;
+        text-align: left;
+    }
+    
+    .social-media a {
+        color: white;
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+        display: inline-flex;
+        display: inline-flex;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #3b5998;
+        border-radius: 50%;
+        text-decoration: none;
+        
+    }
+    .social-media a:hover {
+        color: #ff7b7b;
+    }
+    
+    .copyright {
+        margin-top: 10px;
+        font-size: 14px;
+        opacity: 0.7;
+    }
+    
