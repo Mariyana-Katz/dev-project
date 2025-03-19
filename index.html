@@ -45,11 +45,25 @@
     <!-- Cakes and Bakes section -->
      <div class="logo-section">
         <span id="Cakes-and-bakes">Cakes and Bakes by MaryAnna</span>
-        <p class="bold">Cakes and Bakes by MaryAnna – Homemade with Love! 🎂✨<br>
+        <p class="bold"> Cakes and Bakes by MaryAnna – Where Every Bite is a Celebration! 🎂✨<br>
 
-            At Cakes and Bakes by MaryAnna, we believe that every celebration deserves something truly special.<br> As a Delaware Cottage Food Establishment, we create custom cakes, cupcakes, and cookies, all made from scratch using only the highest quality ingredients.
+           
+
+            At Cakes and Bakes by MaryAnna, we believe that every special moment deserves a touch of sweetness. As a Delaware Cottage Food Establishment, we take pride in crafting custom cakes, cupcakes, and cookies made entirely from scratch, using only the finest, high-quality ingredients. Each treat is baked with love, decorated with passion, and designed to make your celebrations unforgettable.
             
-           <br> From elegant wedding cakes to fun birthday treats, every order is handcrafted with care, ensuring not only stunning designs but also unforgettable flavors.<br> Let us bring a little extra sweetness to your special moments! 🍪🧁💖!</p>
+            From luxurious wedding cakes to fun and festive birthday creations, elegant anniversary desserts, themed party treats, and seasonal delights, we bring your vision to life with creativity and attention to detail. Whether you prefer classic flavors or bold, unique combinations, our handcrafted desserts are as delicious as they are beautiful.<br>
+            
+            💖 Why Choose Cakes and Bakes by MaryAnna?<br>
+            ✨ Completely Custom – Every order is made to match your style, theme, and flavor preferences.<br>
+            🍰 Made from Scratch – No shortcuts, just premium ingredients and expert craftsmanship.<br>
+            🎨 Stunning Designs – We create cakes that are as breathtaking as they are delicious.<br>
+            👩‍🍳 Baked with Passion – A small business with a big heart, bringing joy to every bite.<br>
+            🚚 Local & Fresh – Serving Bear, DE, and surrounding areas with made-to-order goodness.<br>
+            
+            Let us help you create memories that taste as sweet as they look!<br> Contact us today to design the perfect cake or dessert for your next event.<br>
+            
+            
+         
         <!-- <form action="">
             <inpit type="text"/>
             <input type="submit" value="Submit">
@@ -98,6 +112,7 @@
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 <br>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 
 <footer>
@@ -123,6 +138,8 @@
      document.getElementById('button').addEventListener('click', function() {
             window.location.href = "order-form.html"; // have to be change to order form html page
         });
+
+
 
         
         let slideIndex = 0;
@@ -163,6 +180,25 @@ document.addEventListener("DOMContentLoaded", () => {
     showSlides();
 });
 
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// Scrolling down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When clicked on the button, it's scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 
 </script> 
 </body>
