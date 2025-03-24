@@ -41,59 +41,71 @@
         color: rgb(126, 2, 99);
         text-align: center;
         padding: 20px 0;
+        
     }
     
     .footer-container{
         display: flex;
-        justify-content: space-around;
+        /* justify-content: space space-between;
         /* items wrap to a new row if needed */
-        flex-wrap: wrap;
+        /* flex-wrap: wrap;
         padding: 10px;
-        max-width: 900px;
-        margin: -40px 0; 
+        max-width: 1000px;
+        margin: -40px 0;  */
+    } 
+    
+    .cell{
+        flex: 1;
     }
     
-    .contact-info, .social-media{
+    .contact-info, .social-media, .copyright{
     margin: 10px;
-    text-align: left;
+    text-align: center;
     
     }
-    .contact-info h3, .social-media h3 {
+    .contact-info h3, .social-media h3,.copyright {
         font-size: 18px;
         margin-bottom: 10px;
         text-align: center;
+       
     }
     
     .contact-info p {
         margin: 5px 0;
-        text-align: left;
+        text-align: center;
     }
     
     .social-media a {
         color: white;
         font-size: 20px;
-        height: 30px;
-        width: 30px;
-        display: inline-flex;
-        display: inline-flex;
+        height: 50px;
+        width: 50px;
         display: inline-flex;
         justify-content: center;
         align-items: center;
+        align-self: center;
         background-color: #3b5998;
         border-radius: 50%;
         text-decoration: none;
-        
-    }
+      }
+    
+    
     .social-media a:hover {
         color: #ff7b7b;
     }
     
     .copyright {
         margin-top: 10px;
-        font-size: 14px;
-        opacity: 0.7;
+        font-size: 16px;
+        font-weight: 100%;
+        opacity: 0.5;
+        align-self:center;
     }
-
+    
+    
+    
+    
+    
     .info{
         text-align: center;
         font-size: 40px;
@@ -104,6 +116,6 @@
     .message{
         text-align: justify;
         font-size: 20px;
-        
+        padding:0 30%;
     }
     
