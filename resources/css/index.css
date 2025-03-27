@@ -116,10 +116,10 @@
 
 
 .bold{
-    font-weight: 800;
+    font-weight: 400;
     align-items: center;
     padding: 0 70px;
-    font-size: 20px;;
+    font-size: 20px;
 }
 
 
@@ -221,6 +221,18 @@
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 1200px; /* Adjust as needed */
+    object-fit: cover; /* Ensures the image fills the space properly */
+}
+
+.carousel-item {
+    min-height: 1200px; /* Adjust to your needs */
+}
+
 
 
 footer{
