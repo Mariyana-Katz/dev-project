@@ -4,10 +4,14 @@
 
 
 /*apply for all of the a from the navbar*/
-.navbar a{
-    text-decoration: none;
-    color: rgb(126, 2, 99);
-
+.navbar{
+    background-color: rgb(241, 197, 236);
+    position: sticky;/*makes the navbar static */
+    top: 0; /* the navbar is on the top of the page*/
+    z-index: 1000; /* Keeps it above other elements */
+    width: 100%;
+    padding: 10px 20px;
+    font-family:'Lobster', sans-serif;
 }
 
 .navbar li{
@@ -19,19 +23,25 @@
 /*apply for all of the a from the navbar*/
 .navbar a{
     text-decoration: none;
-    color: rgb(126, 2, 99);
-
+    color: white;
+    font-family:'Lobster', sans-serif;
 }
 
 
 .banner{
     background-image: url("https://www.shutterstock.com/image-vector/pastry-sweet-bakery-seamless-pattern-600nw-2143884193.jpg") ;
     color: rgb(126, 2, 99);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Lobster', sans-serif;
     font-size: large;
-    margin-top: 10px;
     text-align: center;
     padding: 10px 0; 
+}
+
+    #Logo-picture{
+ 
+        /* giving a shadow to the image */
+        filter: drop-shadow(10px 10px 10px rgb(126, 2, 99)); 
+        border-radius: 10%;
     }
 
     #title{
@@ -39,11 +49,13 @@
         font-family:Arial, Helvetica, sans-serif;
         color:rgb(126, 2, 99) ;
         text-align: center;
+        font-family:'Lobster', sans-serif;
     }
 
     #button{
         padding: 12px 24px; 
-        font-size: 18px;  
+        font-size: 18px; 
+        font-family:'Lobster', sans-serif; 
     }
 
     .menu-container {
@@ -53,6 +65,7 @@
         gap: 20px; /* Adds space between them */
         flex-wrap: nowrap; /* Prevents wrapping */
         font-size: 20px;
+        font-family:'Lobster', sans-serif;
     }
     
     .bold {
@@ -65,6 +78,7 @@
     .menu{
         font-size: 40px;
         font-weight: 100;
+        font-family:'Lobster', sans-serif;
 
     }
 
@@ -72,23 +86,21 @@
         width: 100px; /* Set desired width */
         height: auto; /* Keeps aspect ratio */
         float: left;
-        
+      
     }
 
     .description{
         font-size: 20px;
         font-weight: 100;
         text-align: center;
-
-
+        font-family:'Lobster', sans-serif;
     }
 
     footer{
-        background-color: bisque;
+        background-color:rgb(241, 197, 236);
         color: rgb(126, 2, 99);
         text-align: center;
         padding: 20px 0;
-        
     }
     
     .footer-container{
@@ -101,9 +113,8 @@
     }
     
     .contact-info, .social-media, .copyright{
-    margin: 10px;
-    text-align: center;
-    
+        margin: 10px;
+        text-align: center;
     }
     .contact-info h3, .social-media h3,.copyright {
         font-size: 18px;
@@ -129,7 +140,7 @@
         background-color: #3b5998;
         border-radius: 50%;
         text-decoration: none;
-      }
+    }
     
     
     .social-media a:hover {

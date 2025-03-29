@@ -2,55 +2,61 @@
 
 
 /*apply for all of the a from the navbar*/
-.navbar a{
-    text-decoration: none;
-    color: rgb(126, 2, 99);
-
+.navbar{
+    background-color: rgb(241, 197, 236);
+    position: sticky;/*makes the navbar static */
+    z-index: 1000; /* Keeps it above other elements */
+    width: 100%;
+    padding: 5px 0px;
 }
-
 
 .navbar li{
     display: inline-block; /* put the elements of the navbar in horizontal order*/
     padding: 0 20px;
-
 }
 
 /*apply for all of the a from the navbar*/
 .navbar a{
     text-decoration: none;
-    color: rgb(126, 2, 99);
-
+    color: white;
 }
-
 
 .bold{
     font-weight: 400;
+    font-family:'Lobster', sans-serif;
     align-items: center;
-    padding: 0 70px;
     font-size: 20px;
     text-align: left;
+    width: 100%;
 }
 
 .banner{
     background-image: url("https://www.shutterstock.com/image-vector/pastry-sweet-bakery-seamless-pattern-600nw-2143884193.jpg") ;
     color: rgb(126, 2, 99);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Lobster', sans-serif;
     font-size: large;
-    margin-top: 10px;
     text-align: center;
-    padding: 10px 0; 
+    padding: 40px 0; 
+}
+
+    #Logo-picture{
+ 
+        /* giving a shadow to the image */
+        filter: drop-shadow(10px 10px 10px rgb(126, 2, 99)); 
+        border-radius: 10%;
     }
 
     #button{
         padding: 12px 24px; 
-        font-size: 18px;  
+        font-size: 18px; 
+        font-family: 'Lobster', sans-serif;
     }
 
 
     
 /* General Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lobster', sans-serif;
     background-image: url("https://img.freepik.com/free-vector/golden-hexagonal-style-pattern_1409-1045.jpg?t=st=1742172812~exp=1742176412~hmac=686ac456d4a84499698d54f528fc01a89959dab7f61842c1f9e7866a41b0f9e7&w=1060");
     text-align: center;
     padding: 20px;
@@ -61,9 +67,10 @@ form {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Lobster', sans-serif;
 }
 
 .date {
@@ -144,7 +151,9 @@ input[type="radio"] {
 .fondant span {
     font-weight: bold;
     
-}.fondant {
+}
+
+.fondant {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -201,7 +210,7 @@ hr {
 
 
     footer{
-        background-color: bisque;
+        background-color:  rgb(241, 197, 236);
         color: rgb(126, 2, 99);
         text-align: center;
         padding: 20px 0;
@@ -246,7 +255,7 @@ hr {
         background-color: #3b5998;
         border-radius: 50%;
         text-decoration: none;
-      }
+    }
     
     
     .social-media a:hover {

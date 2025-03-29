@@ -1,43 +1,48 @@
 
 
 /*apply for all of the a from the navbar*/
-.navbar a{
-    text-decoration: none;
-    color: rgb(126, 2, 99);
-
+.navbar{
+    background-color: rgb(241, 197, 236);
+    position: sticky;/*makes the navbar static */
+    top: 0; /* the navbar is on the top of the page*/
+    z-index: 1000; /* Keeps it above other elements */
+    width: 100%;
+    padding: 10px 20px;
 }
 
 .navbar li{
     display: inline-block; /* put the elements of the navbar in horizontal order*/
     padding: 0 20px;
-
 }
 
 /*apply for all of the a from the navbar*/
 .navbar a{
     text-decoration: none;
-    color: rgb(126, 2, 99);
+    color: white;
+    font-family:'Lobster', sans-serif;
 
 }
+
+
 
 
 .banner{
     background-image: url("https://www.shutterstock.com/image-vector/pastry-sweet-bakery-seamless-pattern-600nw-2143884193.jpg") ;
     color: rgb(126, 2, 99);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Lobster', sans-serif;
     font-size: large;
-    margin-top: 10px;
     text-align: center;
     padding: 10px 0; 
-    }
+}
 
     #button{
         padding: 12px 24px; 
-        font-size: 18px;  
+        font-size: 18px; 
+        font-family:'Lobster', sans-serif; 
     }
 
     footer{
-        background-color: bisque;
+        background-color:  rgb(241, 197, 236);
         color: rgb(126, 2, 99);
         text-align: center;
         padding: 20px 0;
@@ -46,12 +51,6 @@
     
     .footer-container{
         display: flex;
-        /* justify-content: space space-between;
-        /* items wrap to a new row if needed */
-        /* flex-wrap: wrap;
-        padding: 10px;
-        max-width: 1000px;
-        margin: -40px 0;  */
     } 
     
     .cell{
@@ -59,10 +58,10 @@
     }
     
     .contact-info, .social-media, .copyright{
-    margin: 10px;
-    text-align: center;
-    
+        margin: 10px;
+        text-align: center;
     }
+
     .contact-info h3, .social-media h3,.copyright {
         font-size: 18px;
         margin-bottom: 10px;
@@ -87,7 +86,7 @@
         background-color: #3b5998;
         border-radius: 50%;
         text-decoration: none;
-      }
+    }
     
     
     .social-media a:hover {
@@ -103,19 +102,18 @@
     }
     
     
-    
-    
-    
-    .info{
+     .info{
         text-align: center;
         font-size: 40px;
         font-weight: 100;
         color: rgb(126, 2, 99);
+        font-family:'Lobster', sans-serif;
     }
 
     .message{
         text-align: justify;
         font-size: 20px;
         padding:0 30%;
+        font-family:'Lobster', sans-serif;
     }
     

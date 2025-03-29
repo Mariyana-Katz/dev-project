@@ -3,10 +3,13 @@
 
 
 /*apply for all of the a from the navbar*/
-.navbar a{
-    text-decoration: none;
-    color: rgb(126, 2, 99);
-
+.navbar{
+    background-color:  rgb(241, 197, 236);
+    position: sticky;/*makes the navbar static */
+    top: 0; /* the navbar is on the top of the page*/
+    z-index: 1000; /* Keeps it above other elements */
+    width: 100%;
+    padding: 10px 20px;
 }
 
 .navbar li{
@@ -18,7 +21,7 @@
 /*apply for all of the a from the navbar*/
 .navbar a{
     text-decoration: none;
-    color: rgb(126, 2, 99);
+    color: white;
 
 }
 
@@ -27,7 +30,6 @@
     color: rgb(126, 2, 99);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
-    margin-top: 10px;
     text-align: center;
     padding: 10px 0; 
 }
@@ -129,7 +131,9 @@ input[type="radio"] {
 .fondant span {
     font-weight: bold;
     
-}.fondant {
+}
+
+.fondant {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -184,9 +188,3 @@ hr {
     transition: background-color 0.3s ease; /* Smooth transition */
 }
 
-/* Logo Styling */
-/* #logo {
-    max-width: 150px;
-    display: block;
-    margin: 10px auto;
-} */
