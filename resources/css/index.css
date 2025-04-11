@@ -1,4 +1,10 @@
 
+
+
+#Logo-picture1 {
+    width: 150px;
+  }
+
 .navbar{
     background-color: rgb(241, 197, 236);
     position: sticky;/*makes the navbar static */

@@ -28,7 +28,7 @@
 .banner{
     background-image: url("https://www.shutterstock.com/image-vector/pastry-sweet-bakery-seamless-pattern-600nw-2143884193.jpg") ;
     color: rgb(126, 2, 99);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lobster', sans-serif;
     font-size: large;
     text-align: center;
     padding: 10px 0; 
@@ -37,7 +37,7 @@
 
 /* General Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lobster', sans-serif;
     background-image: url("https://img.freepik.com/free-vector/golden-hexagonal-style-pattern_1409-1045.jpg?t=st=1742172812~exp=1742176412~hmac=686ac456d4a84499698d54f528fc01a89959dab7f61842c1f9e7866a41b0f9e7&w=1060");
     text-align: center;
     padding: 20px;
@@ -45,6 +45,7 @@ body {
 
 /* Form Container */
 form {
+    font-family: 'Lobster', sans-serif;
     background: white;
     padding: 20px;
     border-radius: 10px;
@@ -89,6 +90,7 @@ form {
 h1 {
     color:rgb(126, 2, 99);
     font-size: 24px;
+    font-family: 'Lobster', sans-serif;
 }
 
 /* Description */
@@ -99,6 +101,7 @@ p.description {
     padding: 10px;
     background: #ffff;
     border-radius: 5px;
+    font-family: 'Lobster', sans-serif;
 }
 
 /* Labels */
