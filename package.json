@@ -1,0 +1,25 @@
+{
+  "name": "bakery",
+  "version": "1.0.0",
+  "description": "project using Bootstrap",
+  "homepage": "https://github.com/Mariyana-Katz/dev-project#readme",
+  "bugs": {
+    "url": "https://github.com/Mariyana-Katz/dev-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariyana-Katz/dev-project.git"
+  },
+  "license": "ISC",
+  "author": "Mariyana Katzarova",
+  "type": "commonjs",
+  "main": "cakesandbakes.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "sass": "^1.86.3"
+  }
+}
