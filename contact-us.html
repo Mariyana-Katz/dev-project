@@ -24,9 +24,9 @@
   </head>
   <body>
     <div class="body-container">
-      <header class="header">
+      <header class="top bg-primary">
         <!-- Hero -->
-        <div class="hero text-dark pt-5 pb-4 bg-danger-subtle">
+        <div class="hero text-dark pt-5 pb-4 bg-primary">
           <!-- xl for the container to have enaugh space not to squish the content -->
           <div class="container-xl">
             <div class="row">
@@ -93,7 +93,10 @@
                 </div>
                 <!-- block button wrapped in grid-->
                 <div class="d-grid">
-                  <button type="submit" class="btn btn-primary text-white mt-3">
+                  <button
+                    type="submit"
+                    class="btn btn-primary text-dark rounded-pill fw-bold mt-3"
+                  >
                     Submit
                   </button>
                 </div>
@@ -135,20 +138,31 @@
       </section>
       <!-- Social media section -->
 
-      <section class="social text-bg-dark py-6 overflow-hidden">
+      <section class="social text-bg-primary py-6 overflow-hidden">
         <div class="container">
           <div class="row">
             <div class="col-md-6 offset-md-3 text-center fs-4">
               <p>
-                Stay connected and join our vibrant community. For any inquiries
-                or assistance, feel free to reach out to us
+                Stay connected and follow us on Social Media. For any inquiries
+                or assistance, feel free to reach out to us.
               </p>
-              <div class="social-icons d-flex justify-content-center gap-4">
-                <i class="fab fa-facebook fa-2X"></i>
-                <i class="fab fa-twitter fa-2X"></i>
-                <i class="fab fa-instagram fa-2X"></i>
-                <i class="fab fa-linkedin fa-2X"></i>
-                <i class="fab fa-printerest fa-2X"></i>
+              <div
+                class="social-icons d-flex justify-content-center gap-4 mt-4"
+              >
+                <a
+                  href="https://www.facebook.com/Cakesandbakesbymaryanna"
+                  target="_blank"
+                  aria-label="Facebook"
+                >
+                  <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  aria-label="Instagram"
+                >
+                  <i class="fab fa-instagram fa-2x"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -159,19 +173,23 @@
 
       <!-- Footer -->
 
-      <footer class="border-top border-primary bg-dark text-white py-4">
+      <footer class="border-top border-primary bg-white text-dark py-4">
         <div class="container">
           <div class="row">
             <div class="col-md-8">
               <ul class="nav">
                 <li class="nav-item">
-                  <a href="index.html" class="nav-link link-light">Home</a>
+                  <a href="index.html" class="nav-link link-dark">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#details" class="nav-link link-light">Details</a>
+                  <a href="#place_an_order" class="nav-link link-dark"
+                    >Place An Order</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a href="contact.html" class="nav-link link-light">Contact</a>
+                  <a href="contact-us.html" class="nav-link link-dark"
+                    >Contact Us</a
+                  >
                 </li>
               </ul>
             </div>

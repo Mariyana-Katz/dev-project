@@ -35,11 +35,16 @@
     padding: 10px 0; 
 }
 
-#Logo-picture{
+#Logo-picture1{
  
     /* giving a shadow to the image */
     filter: drop-shadow(10px 10px 10px rgb(126, 2, 99)); 
     border-radius: 10%;
+    width: 150px;
+    display:flex;
+    justify-content: center;
+   
+
 }
 
 #title{
@@ -50,6 +55,30 @@
     font-family:'Lobster', sans-serif;
     
 }
+
+
+
+.hero{
+    background-image: url("../images/different-pieces-cake_.avif") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family:'Lobster', sans-serif;
+    display: flex;
+    color: rgb(126, 2, 99);
+    font-size: large;
+    text-align: center;
+    padding: 200px 0;
+   
+   
+    
+}
+
+    .body-container{
+        background-color: rgb(248, 241, 245);
+        font-family: 'Lobster', sans-serif;
+    }
+
 
 
 .gallery {

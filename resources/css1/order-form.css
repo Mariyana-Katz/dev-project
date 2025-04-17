@@ -67,6 +67,12 @@ form {
     color: black;
 }
 
+#Logo-picture{
+    border-radius: 50%;
+    filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
+    
+}
+
 /* Input Field Styling */
 .date input[type="date"] {
     width: 100%;
