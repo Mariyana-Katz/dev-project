@@ -8,8 +8,8 @@
       href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="./resources/css1/place-an-order.css" />
     <link
       rel="stylesheet"
@@ -17,130 +17,211 @@
     />
   </head>
   <body>
-    <!-- navbar section -->
-    <nav class="navbar bold">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="place-an-order.html">Place an order</a></li>
-        <li><a href="get-in-touch.html">Get in touch</a></li>
-      </ul>
+    <!-- Navigation -->
+
+    <nav class="navbar bg-primary text-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          >Cakes And Bakes By MaryAnna</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              CakesAnd Bakes By MaryAnna
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body bg-primary text-dark">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  href="index.html"
+                  aria-current="page"
+                  class="nav-link fw-semibold"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="gallery.html" class="nav-link fw-semibold">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a href="menu.html" class="nav-link fw-semibold">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a href="place-an-order.html" class="nav-link fw-semibold"
+                  >Place An Order</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="get-in-touch.html" class="nav-link fw-semibold"
+                  >Get In Touch</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </nav>
 
     <!--Banner section  -->
-    <div class="banner" class="bold">
+    <div class="banner bold">
       <h1>Cakes and Bakes by MaryAnna</h1>
-      <img id="Logo-picture" src="./resources/images/cakesandbakeslogo.jpg" />
-      <h3>Have a sweet day!</h3>
+      <img id="Logo-picture1" src="./resources/images/cakesandbakeslogo.jpg" />
+      <h5>Where Every Bite is a Celebration!</h5>
       <button id="button">Order today!</button>
     </div>
 
     <br /><br /><br />
 
     <section id="overlay">
-        <!-- <img src="./resources/images/cakesandbakeslogo.jpg" alt="logo picture" id="logo">
-        <hr>     -->
-<form action="submission.html" method="POST">
-        
-            <h1>Custom Cake Order Form!</h1>
-            <hr>
-            <p class="description">Thank you for choosing Cakes and Bakes by MaryAnna for your custom cake needs! Our Custom Cake Order Form makes it easy for you to create the perfect cake for your special occasion.<br>
+      <!-- <img src="./resources/images/cakesandbakeslogo.jpg" alt="logo picture" id="logo">
+            <hr>     -->
+      <form action="submission.html" method="POST">
+        <h1>Custom Cake Order Form!</h1>
+        <hr />
+        <p class="description">
+          Thank you for choosing Cakes and Bakes by MaryAnna for your custom
+          cake needs! Our Custom Cake Order Form makes it easy for you to create
+          the perfect cake for your special occasion.<br />
 
-                What to Expect:<br>
-                🎂 Personalized Cakes: Select from a variety of flavors, sizes, and styles. Let us know your theme, colors, and decorations.<br>
-                📅 Convenient Ordering: Simply fill out the form with your details, pick up your date, and we’ll take care of the rest.<br>
-                💬 Special Requests Welcome: Add a custom message, note any allergies, or describe your ideal design.<br>
-            
-                 We take pride in using only the finest ingredients and crafting each cake from scratch with love. Let’s make your celebration extra sweet! 🍰✨<br>
-                
-                Ready to place your order? Fill out the form and we’ll be in touch soon! 😊
-                
-            </p>
-            <hr>
+          What to Expect:<br />
+          🎂 Personalized Cakes: Select from a variety of flavors, sizes, and
+          styles. Let us know your theme, colors, and decorations.<br />
+          📅 Convenient Ordering: Simply fill out the form with your details,
+          pick up your date, and we’ll take care of the rest.<br />
+          💬 Special Requests Welcome: Add a custom message, note any allergies,
+          or describe your ideal design.<br />
 
+          We take pride in using only the finest ingredients and crafting each
+          cake from scratch with love. Let’s make your celebration extra sweet!
+          🍰✨<br />
 
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
-            <hr>
-    
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" required>
-            <hr>
+          Ready to place your order? Fill out the form and we’ll be in touch
+          soon! 😊
+        </p>
+        <hr />
 
-            <section class="date">
-                <label for="event-date">Date of the Event?</label>
-                <input type="date" id="event-date" name="event-date" required>
-             </section>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+        <hr />
 
-         
-            <section class="size">
-                <label for="size"> What size cake you will need?</label>
-                <select id="size" name="size" required>
-                    <option value="6-inch">6-inch(8-12 servings)</option>
-                    <option value="8-inch">8-inch(15 servings)</option>
-                    <option value="6-inch">9-inch(20 servings)</option>
-                    <option value="6-inch">10-inch(25 servings)</option>
-                    <option value="6-inch">12-inch(30-35 servings)</option>
-                </select>
-    </section>
-            <hr>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
+        <hr />
 
-            <section class="cake-sponge">
-                <label for="cake" id="sponge">What type of sponge would you like?</label>
-                    <select name="cake" id="sponge">
-                        <option value="vanilla">Vanilla</option>
-                        <option value="chocolate">Chocolate</option>
-                        <option value="marble">Marble</option>
-                        <option value="red velvet">Red Velvet</option>
-                        <option value="carrot cake">Carrot Cake</option>
-                        <option value="lemon">Lemon</option>
-                        <option value="strawberry">Strawberry</option>
-                        <option value="banana">Banana</option>
-                    </select>
-            </section>
-            <hr>
-
-            <section class="filling">
-                <label for="cake" id="filling">What type of filling would you like?</label>
-                    <select name="cake" id="filling">
-                        <option value="vanilla">Vanilla</option>
-                        <option value="chocolate">Chocolate</option>
-                        <option value="lemon">Lemon</option>
-                        <option value="strawberry">Strawberry</option>
-                        <option value="banana">Banana</option>
-                        <option value="chocolate ganache">Chocolate Ganache</option>
-                        <option value="fruit preserve">Fruit Preserve</option>
-                    </select>
-            </section>
-            <br>
-
-            <section class="fondant">
-                <span>Would you like the cake to be covered in fondant?</span>
-                <br>
-                <input type="radio" name="fondant" id="yes" value="yes">
-                <label for="yes">Yes</label>
-                <input type="radio" name="fondant" id="no" value="no">
-                <label for="no">No</label>
-            </section>
-            <hr>
-
-            <section class="decoration-info">
-                <label for="decoration">Please give us more details about what decoration you would like?</label>
-                <br>
-                <textarea id="extra" name="extra" rows="5" cols="40"></textarea>
-            </section>
-            <hr>
-
-            <label for="instructions">Special Instructions:</label>
-            <textarea id="instructions" name="instructions" rows="4" placeholder="Any allergies, decoration requests, etc."></textarea>
-
-        <hr>
-        <section class="button">
-            <input type="submit" value="Submit">
+        <section class="date">
+          <label for="event-date">Date of the Event?</label>
+          <input type="date" id="event-date" name="event-date" required />
         </section>
-    
-</form>
+
+        <section class="size">
+          <label for="size"> What size cake you will need?</label>
+          <select id="size" name="size" required>
+            <option value="6-inch">6-inch(8-12 servings)</option>
+            <option value="8-inch">8-inch(15 servings)</option>
+            <option value="9-inch">9-inch(20 servings)</option>
+            <option value="10-inch">10-inch(25 servings)</option>
+            <option value="12-inch">12-inch(30-35 servings)</option>
+          </select>
+        </section>
+        <hr />
+
+        <section class="cake-sponge">
+          <label for="cake" id="sponge"
+            >What type of sponge would you like?</label
+          >
+          <select name="sponge">
+            <option value="vanilla">Vanilla</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="marble">Marble</option>
+            <option value="red velvet">Red Velvet</option>
+            <option value="carrot cake">Carrot Cake</option>
+            <option value="lemon">Lemon</option>
+            <option value="strawberry">Strawberry</option>
+            <option value="banana">Banana</option>
+          </select>
+        </section>
+        <hr />
+
+        <section class="cake-filling">
+          <label for="cake" id="filling"
+            >What type of filling would you like?</label
+          >
+          <select name="filling">
+            <option value="vanilla">Vanilla</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="lemon">Lemon</option>
+            <option value="strawberry">Strawberry</option>
+            <option value="banana">Banana</option>
+            <option value="chocolate ganache">Chocolate Ganache</option>
+            <option value="fruit preserve">Fruit Preserve</option>
+          </select>
+        </section>
+        <br />
+
+        <section class="fondant">
+          <span>Would you like the cake to be covered in fondant?</span>
+          <br />
+          <input type="radio" name="fondant" id="yes" value="yes" />
+          <label for="yes">Yes</label>
+          <input type="radio" name="fondant" id="no" value="no" />
+          <label for="no">No</label>
+        </section>
+        <hr />
+
+        <section class="decoration-info">
+          <label for="decoration"
+            >Please give us more details about what decoration you would
+            like?</label
+          >
+          <br />
+          <textarea id="extra" name="extra" rows="5" cols="40"></textarea>
+        </section>
+        <hr />
+
+        <label for="instructions">Special Instructions:</label>
+        <textarea
+          id="instructions"
+          name="instructions"
+          rows="4"
+          placeholder="Any allergies, decoration requests, etc."
+        ></textarea>
+
+        <hr />
+        <section class="button">
+          <input type="submit" value="Submit" />
+        </section>
+      </form>
+    </section>
 
     <footer>
       <div class="footer-container">
@@ -149,7 +230,7 @@
           <p><i class="fa fa-phone"></i> +1 (555) 555-555</p>
           <p>
             <i class="fa fa-envelope"></i
-            ><a href="mailto:cakesandbakesbymaryanna@gmail.com"
+            ><a class="mail" href="mailto:cakesandbakesbymaryanna@gmail.com"
               >cakesandbakesbymaryanna@gmail.com</a
             >
           </p>
@@ -157,9 +238,18 @@
         <div class="social-media cell">
           <h3>Follow Us</h3>
           <a
-            href="https://www.facebook.com/Cakesandbakesbymaryanna"
             class="fa fa-facebook"
+            href="https://www.facebook.com/Cakesandbakesbymaryanna"
             target="_blank"
+            title="Facebook"
+            aria-label="Facebook"
+          ></a>
+          <a
+            class="fa fa-instagram"
+            href="https://www.instagram.com/cakesandbakesbymaryanna/"
+            target="_blank"
+            title="Visit our Instagram page"
+            aria-label="Instagram"
           ></a>
         </div>
         <div class="copyright cell">
@@ -173,6 +263,6 @@
         window.location.href = "order-form.html"; // have to be change to order form html page
       });
     </script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

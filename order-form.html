@@ -1,160 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>order-form</title>
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="./resources/css1/order-form.css" />
-</head>
-<body>
-
+  </head>
+  <body>
     <!--Banner section  -->
-    <div class="banner" class="bold">
-        <h1>Cakes and Bakes by MaryAnna</h1>
-        <img id="Logo-picture" src="./resources/images/cakesandbakeslogo.jpg">
-     
-      
-        
+    <div class="banner bold">
+      <h1>Cakes and Bakes by MaryAnna</h1>
+      <img id="Logo-picture" src="./resources/images/cakesandbakeslogo.jpg" />
     </div>
 
     <section id="overlay">
-        <!-- <img src="./resources/images/cakesandbakeslogo.jpg" alt="logo picture" id="logo">
-        <hr>     -->
-<form action="submission.html" method="POST">
-        
-            <h1>Custom Cake Order Form!</h1>
-            <hr>
-            <p class="description">Thank you for choosing Cakes and Bakes by MaryAnna for your custom cake needs! Our Custom Cake Order Form makes it easy for you to create the perfect cake for your special occasion.<br>
+      <!-- <img src="./resources/images/cakesandbakeslogo.jpg" alt="logo picture" id="logo">
+            <hr>     -->
+      <form action="submission.html" method="POST">
+        <h1>Custom Cake Order Form!</h1>
+        <hr />
+        <p class="description">
+          Thank you for choosing Cakes and Bakes by MaryAnna for your custom
+          cake needs! Our Custom Cake Order Form makes it easy for you to create
+          the perfect cake for your special occasion.<br />
 
-                What to Expect:<br>
-                🎂 Personalized Cakes: Select from a variety of flavors, sizes, and styles. Let us know your theme, colors, and decorations.<br>
-                📅 Convenient Ordering: Simply fill out the form with your details, pick up your date, and we’ll take care of the rest.<br>
-                💬 Special Requests Welcome: Add a custom message, note any allergies, or describe your ideal design.<br>
-            
-                 We take pride in using only the finest ingredients and crafting each cake from scratch with love. Let’s make your celebration extra sweet! 🍰✨<br>
-                
-                Ready to place your order? Fill out the form and we’ll be in touch soon! 😊
-                
-            </p>
-            <hr>
+          What to Expect:<br />
+          🎂 Personalized Cakes: Select from a variety of flavors, sizes, and
+          styles. Let us know your theme, colors, and decorations.<br />
+          📅 Convenient Ordering: Simply fill out the form with your details,
+          pick up your date, and we&apos;ll take care of the rest.<br />
+          💬 Special Requests Welcome: Add a custom message, note any allergies,
+          or describe your ideal design.<br />
 
+          We take pride in using only the finest ingredients and crafting each
+          cake from scratch with love. Let&apos;s make your celebration extra
+          sweet! 🍰✨<br />
 
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
-            <hr>
-    
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" required>
-            <hr>
+          Ready to place your order? Fill out the form and we&apos;ll be in
+          touch soon! 😊
+        </p>
+        <hr />
 
-            <section class="date">
-                <label for="event-date">Date of the Event?</label>
-                <input type="date" id="event-date" name="event-date" required>
-             </section>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+        <hr />
 
-             <!-- <section class="month">
-                <label for="month">Month</label>
-                <select>
-                    <option value="january">January</option>
-                    <option value="february">February</option>
-                    <option value="march">March</option>
-                    <option value="april">April</option>
-                    <option value="may">May</option>
-                    <option value="june">June</option>
-                    <option value="july">July</option>
-                    <option value="august">August</option>
-                    <option value="september">September</option>
-                    <option value="october">October</option>
-                    <option value="november">November</option>
-                    <option value="december">December</option>
-                </select>
-             </section> -->
-    
-            <section class="size">
-                <label for="size"> What size cake you will need?</label>
-                <select id="size" name="size" required>
-                    <option value="6-inch">6-inch(8-12 servings)</option>
-                    <option value="8-inch">8-inch(15 servings)</option>
-                    <option value="6-inch">9-inch(20 servings)</option>
-                    <option value="6-inch">10-inch(25 servings)</option>
-                    <option value="6-inch">12-inch(30-35 servings)</option>
-                </select>
-    </section>
-            <hr>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
+        <hr />
 
-            <section class="cake-sponge">
-                <label for="cake" id="sponge">What type of sponge would you like?</label>
-                    <select name="cake" id="sponge">
-                        <option value="vanilla">Vanilla</option>
-                        <option value="chocolate">Chocolate</option>
-                        <option value="marble">Marble</option>
-                        <option value="red velvet">Red Velvet</option>
-                        <option value="carrot cake">Carrot Cake</option>
-                        <option value="lemon">Lemon</option>
-                        <option value="strawberry">Strawberry</option>
-                        <option value="banana">Banana</option>
-                    </select>
-            </section>
-            <hr>
-
-            <section class="filling">
-                <label for="cake" id="filling">What type of filling would you like?</label>
-                    <select name="cake" id="filling">
-                        <option value="vanilla">Vanilla</option>
-                        <option value="chocolate">Chocolate</option>
-                        <option value="lemon">Lemon</option>
-                        <option value="strawberry">Strawberry</option>
-                        <option value="banana">Banana</option>
-                        <option value="chocolate ganache">Chocolate Ganache</option>
-                        <option value="fruit preserve">Fruit Preserve</option>
-                    </select>
-            </section>
-            <br>
-
-            <section class="fondant">
-                <span>Would you like the cake to be covered in fondant?</span>
-                <br>
-                <input type="radio" name="fondant" id="yes" value="yes">
-                <label for="yes">Yes</label>
-                <input type="radio" name="fondant" id="no" value="no">
-                <label for="no">No</label>
-            </section>
-            <hr>
-
-            <section class="decoration-info">
-                <label for="decoration">Please give us more details about what decoration you would like?</label>
-                <br>
-                <textarea id="extra" name="extra" rows="5" cols="40"></textarea>
-            </section>
-            <hr>
-
-            <label for="instructions">Special Instructions:</label>
-            <textarea id="instructions" name="instructions" rows="4" placeholder="Any allergies, decoration requests, etc."></textarea>
-
-        <hr>
-        <section class="button">
-            <input type="submit" value="Submit">
+        <section class="date">
+          <label for="event-date">Date of the Event?</label>
+          <input type="date" id="event-date" name="event-date" required />
         </section>
-    
-</form>
 
+        <!-- <section class="month">
+                            <label for="month">Month</label>
+                            <select>
+                                <option value="january">January</option>
+                                <option value="february">February</option>
+                                <option value="march">March</option>
+                                <option value="april">April</option>
+                                <option value="may">May</option>
+                                <option value="june">June</option>
+                                <option value="july">July</option>
+                                <option value="august">August</option>
+                                <option value="september">September</option>
+                                <option value="october">October</option>
+                                <option value="november">November</option>
+                                <option value="december">December</option>
+                            </select>
+                        </section> -->
 
+        <section class="size">
+          <label for="size"> What size cake you will need?</label>
+          <select id="size" name="size" required>
+            <option value="6-inch">6-inch(8-12 servings)</option>
+            <option value="8-inch">8-inch(15 servings)</option>
+            <option value="9-inch">9-inch(20 servings)</option>
+            <option value="10-inch">10-inch(25 servings)</option>
+            <option value="12-inch">12-inch(30-35 servings)</option>
+          </select>
+        </section>
+        <hr />
 
+        <section class="cake-sponge">
+          <label for="sponge">What type of sponge would you like?</label>
+          <select name="sponge" id="sponge">
+            <option value="vanilla">Vanilla</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="marble">Marble</option>
+            <option value="red velvet">Red Velvet</option>
+            <option value="carrot cake">Carrot Cake</option>
+            <option value="lemon">Lemon</option>
+            <option value="strawberry">Strawberry</option>
+            <option value="banana">Banana</option>
+          </select>
+        </section>
+        <hr />
 
+        <section class="cake-filling">
+          <label for="filling">What type of filling would you like?</label>
+          <select name="filing" id="filling">
+            <option value="vanilla">Vanilla</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="lemon">Lemon</option>
+            <option value="strawberry">Strawberry</option>
+            <option value="banana">Banana</option>
+            <option value="chocolate ganache">Chocolate Ganache</option>
+            <option value="fruit preserve">Fruit Preserve</option>
+          </select>
+        </section>
+        <br />
 
+        <section class="fondant">
+          <span>Would you like the cake to be covered in fondant?</span>
+          <br />
+          <input type="radio" name="fondant" id="yes" value="yes" />
+          <label for="yes">Yes</label>
+          <input type="radio" name="fondant" id="no" value="no" />
+          <label for="no">No</label>
+        </section>
+        <hr />
 
+        <section class="decoration-info">
+          <label for="decoration"
+            >Please give us more details about what decoration you would
+            like?</label
+          >
+          <br />
+          <textarea id="extra" name="extra" rows="5" cols="40"></textarea>
+        </section>
+        <hr />
 
+        <label for="instructions">Special Instructions:</label>
+        <textarea
+          id="instructions"
+          name="instructions"
+          rows="4"
+          placeholder="Any allergies, decoration requests, etc."
+        ></textarea>
 
-
-
-
-
-
-
-
-
-    
-</body>
+        <hr />
+        <section class="button">
+          <input type="submit" value="Submit" />
+        </section>
+      </form>
+    </section>
+  </body>
 </html>
