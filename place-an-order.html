@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Place_an_order</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/bootstrap.css" />
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./resources/css1/place-an-order.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
   </head>
   <body>
@@ -21,9 +21,7 @@
 
     <nav class="navbar bg-primary text-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"
-          >Cakes And Bakes By MaryAnna</a
-        >
+        <a class="navbar-brand" href="index.html">Place An Order</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -92,19 +90,25 @@
       </div>
     </nav>
 
-    <!--Banner section  -->
-    <div class="banner bold">
-      <h1>Cakes and Bakes by MaryAnna</h1>
-      <img id="Logo-picture1" src="./resources/images/cakesandbakeslogo.jpg" />
-      <h5>Where Every Bite is a Celebration!</h5>
-      <button id="button">Order today!</button>
-    </div>
+    <!--Hero section  -->
+    <header class="header">
+      <div class="hero">
+        <div class="container-xl text-center">
+          <div class="row align-items-start">
+            <div class="col-12">
+              <div
+                class="text-container px-5 pb-4 d-flex flex-column justify-content-start h-100 mb-5"
+              >
+                <h1 class="name display-1 pb-5">Cakes and Bakes by MaryAnna</h1>
+                <h4 class="pb-5">Where Every Bite is a Celebration!</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-    <br /><br /><br />
-
-    <section id="overlay">
-      <!-- <img src="./resources/images/cakesandbakeslogo.jpg" alt="logo picture" id="logo">
-            <hr>     -->
+    <section>
       <form action="submission.html" method="POST">
         <h1>Custom Cake Order Form!</h1>
         <hr />
@@ -238,14 +242,14 @@
         <div class="social-media cell">
           <h3>Follow Us</h3>
           <a
-            class="fa fa-facebook"
+            class="fab fa-facebook"
             href="https://www.facebook.com/Cakesandbakesbymaryanna"
             target="_blank"
             title="Facebook"
             aria-label="Facebook"
           ></a>
           <a
-            class="fa fa-instagram"
+            class="fab fa-instagram"
             href="https://www.instagram.com/cakesandbakesbymaryanna/"
             target="_blank"
             title="Visit our Instagram page"

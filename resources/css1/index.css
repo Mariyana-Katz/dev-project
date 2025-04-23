@@ -124,6 +124,10 @@
     height: 300px; /* or any height that works for all images */
     object-fit: cover;
   }
+
+  .card-title{
+    color:rgb(126, 2, 99);;
+  }
   
 
 
@@ -180,6 +184,7 @@
 .title{
     justify-content: center;
     font-family: 'Lobster', sans-serif  !important;
+    color: rgb(126, 2, 99);
 }
 
 
