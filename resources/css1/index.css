@@ -126,7 +126,12 @@
   }
 
   .card-title{
-    color:rgb(126, 2, 99);;
+    color:rgb(126, 2, 99);
+  
+  }
+
+  .btn-link{
+    color:rgb(126, 2, 99);
   }
   
 
@@ -181,17 +186,18 @@
 
 }
 
-.title{
+.title1{
     justify-content: center;
     font-family: 'Lobster', sans-serif  !important;
     color: rgb(126, 2, 99);
+    background-color: rgb(248, 241, 245);
 }
 
 
 /* footer css
  */
 footer{
-    background-color: rgb(241, 197, 236);
+    background-color: rgb(216, 175, 198);
     color: rgb(126, 2, 99);
     text-align: center;
     padding: 20px 0;

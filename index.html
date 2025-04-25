@@ -148,14 +148,24 @@
                 >
               </li>
             </ul>
-            <form class="d-flex mt-3" role="search">
+            <form
+              class="d-flex mt-3"
+              role="search"
+              id="searchForm"
+              action="search.html"
+              method="GET"
+            >
+              <h2 id="searchResults"></h2>
               <input
+                id="searchInput"
                 class="form-control me-2"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button class="btn btn-outline-dark" type="submit">Search</button>
+              <button class="btn btn-outline-dark" type="submit" id="searchBtn">
+                Search
+              </button>
             </form>
           </div>
         </div>
@@ -291,13 +301,13 @@
     </div>
 
     <!-- Icons -->
-    <section class="icons bg-light m-4">
-      <div class="container-fluid">
-        <h1 class="title d-flex pt-4">
+    <section class="icons bg-light m-5">
+      <div class="container-fluid g-0">
+        <h1 class="title1 d-flex mb-5 pb-4">
           WHY CHOOSE CAKES AND BAKES BY MARYANNA
         </h1>
-        <div class="row d-flex g-4 my-5">
-          <div class="col-md-4 d-flex border-bottom mt-4 py-4 gap-4">
+        <div class="row d-flex g-4">
+          <div class="col-md-4 d-flex border-bottom mt-2 py-2 gap-4">
             <i
               class="fa-solid fa-seedling fa-xl py-3 align-items-center"
               style="color: #b197fc"
@@ -311,7 +321,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 d-flex border-bottom mt-4 py-4 gap-4">
+          <div class="col-md-4 d-flex border-bottom mt-2 py-2 gap-4">
             <i
               class="fa-solid fa-cake-candles fa-xl py-3 align-items-center"
               style="color: #b197fc"
@@ -325,7 +335,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 d-flex border-bottom mt-4 py-4 gap-4">
+          <div class="col-md-4 d-flex border-bottom mt-2 py-2 gap-4">
             <i
               class="fa-solid fa-hand-point-right fa-xl py-3 align-items-center"
               style="color: #b197fc"
@@ -337,7 +347,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-4 d-flex mb-4 py-4 gap-4">
+          <div class="col-md-4 d-flex py-2 gap-4">
             <i
               class="fa-solid fa-location-dot fa-xl py-3 align-items-center"
               style="color: #b197fc"
@@ -351,7 +361,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 d-flex mb-4 py-4 gap-4">
+          <div class="col-md-4 d-flex py-2 gap-4">
             <i
               class="fa-solid fa-cart-shopping fa-xl py-3 align-items-center"
               style="color: #b197fc"
@@ -362,7 +372,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 d-flex py-4 gap-4">
+          <div class="col-md-4 d-flex py-2 gap-4">
             <i
               class="fa-solid fa-heart fa-xl py-3 align-items-center"
               style="color: #b197fc"
@@ -380,7 +390,7 @@
 
     <!-- carousel section -->
     <div class="container-fluid mt-3">
-      <div id="slider" class="carousel slide" data-bs-ride="carousel">
+      <div id="slider" class="carousel slide carousel-fade">
         <div class="carousel-indicators">
           <button
             type="button"
@@ -554,48 +564,8 @@
 
     <!-- script tag is ALWAYS on the bottom of the html page! -->
     <!-- /*becausew index.html is on the same level as cakesandbakes.js we use ./ to go to the pathway -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script>
-      document.querySelectorAll(".order-button").forEach((button) => {
-        button.addEventListener("click", function () {
-          window.location.href = "order-form.html";
-        });
-      });
-
-      // Get the button:
-      let mybutton = document.getElementById("myBtn");
-
-      // Scrolling down 20px from the top of the document, show the button
-      window.onscroll = function () {
-        scrollFunction();
-      };
-
-      function scrollFunction() {
-        if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
-        ) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-
-      // When clicked on the button, it's scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-      }
-
-      document.addEventListener("DOMContentLoaded", function () {
-        const myCarouselElement = document.querySelector("#slider");
-
-        const carousel = new bootstrap.Carousel(myCarouselElement, {
-          interval: 5000,
-          touch: false,
-        });
-      });
-    </script>
     <!-- Bootstrap Bundle JS  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
