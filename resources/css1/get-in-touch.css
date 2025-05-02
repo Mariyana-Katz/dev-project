@@ -186,11 +186,14 @@ font-family: 'Playfair Display', sans-serif  !important;
     
     .contact-info p {
         margin: 5px 0;
+       align-self: center;
         text-align: center;
     }
     
-    .mail{
-        color: rgb(126, 2, 99);
+    a.mail{
+        color: rgb(173, 71, 151);
+        align-self: center ;
+       text-align: center;
     }
     
     .social-media a {
