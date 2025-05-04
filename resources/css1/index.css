@@ -21,7 +21,7 @@
 /*apply for all of the a from the navbar*/
 .navbar a{
     text-decoration: none;
-    color: white;
+    color: rgb(221, 96, 173);
 
 }
 
@@ -87,23 +87,23 @@
 
 }
 
-
-
-
+    
+           
     .hero{
-        background-image: url("../images/cakes3/sun2.JPG");
+        background-image: url("../images/different-pieces-cake_.avif")  ;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         font-family:'Lobster', sans-serif;
         display: flex;
-        color: rgb(175, 54, 149);
+        color: rgb(126, 2, 99);
         font-size: large;
-        text-align:end;
+        text-align: center;
+        display: flex;
         flex-direction: column;
         justify-content: flex-start; /* <-- this keeps content at the top */
         align-items: center;
-        height: 50vh; 
+        height: 70vh; 
         padding-top: 5%;
             
            
