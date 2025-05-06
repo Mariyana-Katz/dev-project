@@ -11,7 +11,7 @@
     z-index: 1000; /* Keeps it above other elements */
     width: 100%;
     padding: 10px 20px;
-    font-family:'Lobster', sans-serif;
+    
 }
 
 .navbar li{
@@ -23,8 +23,8 @@
 /*apply for all of the a from the navbar*/
 .navbar a{
     text-decoration: none;
-    color: white;
-    font-family:'Lobster', sans-serif;
+    color:  rgb(221, 96, 173);
+    
 } 
 
 
