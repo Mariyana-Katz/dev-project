@@ -21,7 +21,7 @@
 /*apply for all of the a from the navbar*/
 .navbar a{
     text-decoration: none;
-    color: rgb(221, 96, 173);
+    color: rgb(245, 235, 241);
 
 }
 
@@ -182,7 +182,7 @@
         align-items: center;
         justify-content: center;
         min-height: 300px; 
-        background-color: rgb(247, 238, 248); 
+        background-color: rgb(246, 231, 250); 
     }
     
 .carousel {
@@ -199,7 +199,7 @@
 }
 
 .carousel-caption{
-    color:rgb(209, 91, 182);
+    color:rgb(136, 55, 120);
 }
 
 .title1{
@@ -214,7 +214,7 @@
 /* footer css
  */
 footer{
-    background-color: rgb(255, 214, 237);
+    background-color:  rgb(246, 231, 250);
     color: rgb(126, 2, 99);
     text-align: center;
     padding: 20px 0;
