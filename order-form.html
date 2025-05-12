@@ -73,6 +73,7 @@
         <section class="size">
           <label for="size"> What size cake you will need?</label>
           <select id="size" name="size" required>
+            <option value="Choose a size">Choose a Size</option>
             <option value="6-inch">6-inch(8-12 servings)</option>
             <option value="8-inch">8-inch(15 servings)</option>
             <option value="9-inch">9-inch(20 servings)</option>
@@ -85,6 +86,7 @@
         <section class="cake-sponge">
           <label for="sponge">What type of sponge would you like?</label>
           <select name="sponge" id="sponge">
+            <option value="Choose a sponge">Choose a Sponge</option>
             <option value="vanilla">Vanilla</option>
             <option value="chocolate">Chocolate</option>
             <option value="marble">Marble</option>
@@ -100,6 +102,7 @@
         <section class="cake-filling">
           <label for="filling">What type of filling would you like?</label>
           <select name="filing" id="filling">
+            <option value="Choose a filling">Choose a Filling</option>
             <option value="vanilla">Vanilla</option>
             <option value="chocolate">Chocolate</option>
             <option value="lemon">Lemon</option>
@@ -120,11 +123,138 @@
           <label for="no">No</label>
         </section>
         <hr />
+        <br /><br />
+
+        <section class="order-type fw-bold" type="checkbox">
+          <div class="row">
+            <div class="col-md-6 align-items-center align-items-center">
+              <div class="form-check">
+                <label class="form-label text-center"
+                  >Not feeling cake? What kind of dessert would you like
+                  instead?</label
+                >
+
+                <br />
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="checkChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="checkChecked">
+                    Cupcakes
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="checkDefault"
+                  />
+                  <label class="form-check-label" for="checkDefault">
+                    Cookies
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="checkDefault"
+                  />
+                  <label class="form-check-label" for="checkDefault">
+                    Cake Pops
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="checkDefault"
+                  />
+                  <label class="form-check-label" for="checkDefault">
+                    Macarons
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="checkDefault"
+                  />
+                  <label class="form-check-label" for="checkDefault">
+                    Brownies
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 align-items-center align-items-center">
+              <div class="form-check">
+                <label class="form-label text-start">Quantity</label>
+                <br /><br />
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="checkChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="checkChecked">
+                    1 Dozen
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="checkDefault"
+                  />
+                  <label class="form-check-label" for="checkDefault">
+                    2 Dozen
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="checkDefault"
+                  />
+                  <label class="form-check-label" for="checkDefault">
+                    3 Dozen
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="checkDefault"
+                  />
+
+                  <label class="form-check-label" for="checkDefault">
+                    Other(use the descrription box)
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <br />
 
         <section class="decoration-info">
           <label for="decoration"
-            >Please give us more details about what decoration you would
-            like?</label
+            >Please give us more details about what decoration you would like -
+            theme, color scheme and details you wish to include?</label
           >
           <br />
           <textarea id="extra" name="extra" rows="5" cols="40"></textarea>
@@ -139,9 +269,51 @@
           placeholder="Any allergies, decoration requests, etc."
         ></textarea>
 
+        <section class="important text-danger d-flex flex-column">
+          <h3>Important Notes:</h3>
+          <ul>
+            <li>
+              Please note that all cakes are made to order and require at least
+              48 hours notice.
+            </li>
+            <li>
+              A 50% deposit is required to secure your order. The remaining
+              balance is due upon pickup.
+            </li>
+            <li>
+              AN INQURY SUBMISSION DOES NOT CONFIRM YOUR ORDER - Your order has
+              not been officially placed until you have paid your deposit.<br />
+              Delivery is available depending on location with an additional fee
+              based on the distance and time.
+            </li>
+            <li>
+              If you have any questions or special requests, please contact us
+              at <a href="tel:+1302-521-8923">(302) 521-8923</a> or email us at
+              <a href="mailto:cakesandbakesbymaryanna@google.com"
+                >cakesandbakesbymaryanna@google.com</a
+              >.<br />
+              We will get back to you as soon as possible.
+            </li>
+          </ul>
+          <div class="container d-flex align-items-center">
+            <div class="form-check d-flex align-items-center">
+              <input
+                type="checkbox"
+                id="terms"
+                name="terms"
+                required
+                class="form-check-input me-2"
+              />
+              <label for="terms" class="form-check-label mb-0">
+                I have read and agree to the
+                <a href="#">Terms and Conditions</a>.
+              </label>
+            </div>
+          </div>
+        </section>
         <hr />
         <section class="button">
-          <input type="submit" value="Submit" />
+          <input type="submit" value="Send Inquiry" />
         </section>
       </form>
     </section>
