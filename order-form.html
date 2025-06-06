@@ -32,7 +32,7 @@
     </header>
 
     <section class="order-form">
-      <form id="order-form" action="submission.html" method="POST">
+      <form id="order-form">
         <h1>Custom Cake Order Form!</h1>
         <hr />
         <p class="description">
@@ -72,7 +72,7 @@
 
         <section class="size">
           <label for="size"> What size cake you will need?</label>
-          <select id="size" name="size" required>
+          <select id="size" name="cake-size" required>
             <option value="Choose a size">Choose a Size</option>
             <option value="6-inch">6-inch(8-12 servings)</option>
             <option value="8-inch">8-inch(15 servings)</option>
@@ -85,7 +85,7 @@
 
         <section class="cake-sponge">
           <label for="sponge">What type of sponge would you like?</label>
-          <select name="sponge" id="sponge">
+          <select name="sponge-type" id="sponge">
             <option value="Choose a sponge">Choose a Sponge</option>
             <option value="vanilla">Vanilla</option>
             <option value="chocolate">Chocolate</option>
@@ -101,7 +101,7 @@
 
         <section class="cake-filling">
           <label for="filling">What type of filling would you like?</label>
-          <select name="filing" id="filling">
+          <select name="cake-filing" id="filling">
             <option value="Choose a filling">Choose a Filling</option>
             <option value="vanilla">Vanilla</option>
             <option value="chocolate">Chocolate</option>
@@ -117,7 +117,7 @@
         <section class="fondant">
           <span>Would you like the cake to be covered in fondant?</span>
           <br />
-          <input type="radio" name="fondant" id="yes" value="yes" />
+          <input type="radio" name="is-fondant-covered" id="yes" value="yes" />
           <label for="yes">Yes</label>
           <input type="radio" name="fondant" id="no" value="no" />
           <label for="no">No</label>
@@ -306,15 +306,15 @@
               />
               <label for="terms" class="form-check-label mb-0">
                 I have read and agree to the
-                <a href="#">Terms and Conditions</a>.
+                <a href="./terms-and-conditions.html">Terms and Conditions</a>.
               </label>
             </div>
           </div>
         </section>
         <hr />
-        <section class="button">
-          <input type="submit" value="Send Inquiry" />
-        </section>
+        <div class="submit justify-content-center">
+          <button class="btn btn-primary btn-outline-dark">Send Inquiry</button>
+        </div>
       </form>
     </section>
   </body>

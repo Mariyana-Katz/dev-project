@@ -12,7 +12,7 @@
     padding: 10px 20px;
 }
 
-.navbar li{
+.navbar li {
     display: inline-block; /* put the elements of the navbar in horizontal order*/
     padding: 0 20px;
 
@@ -212,6 +212,10 @@
 }
 
 
+
+
+
+
 /* footer css
  */
 footer{
@@ -250,7 +254,7 @@ footer{
 }
 
 .social-media a {
-    color: white;
+    color: rgb(222, 130, 243);
     font-size: 20px;
     height: 50px;
     width: 50px;
@@ -258,7 +262,7 @@ footer{
     justify-content: center;
     align-items: center;
     align-self: center;
-    background-color: black;
+    background-color: white;
     border-radius: 50%;
     text-decoration: none;
 }
