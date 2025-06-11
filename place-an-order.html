@@ -150,12 +150,9 @@
         <section class="size">
           <label for="size"> What size cake you will need?</label>
           <select id="size" name="cake-size" required>
-            <option value="6-inch">6-inch(8-12 servings)</option>
-            <option value="8-inch">8-inch(15 servings)</option>
-            <option value="9-inch">9-inch(20 servings)</option>
-            <option value="10-inch">10-inch(25 servings)</option>
-            <option value="12-inch">12-inch(30-35 servings)</option>
+            <option value="" disabled selected>Select a size</option>
           </select>
+          <p id="sizeDescription"></p>
         </section>
         <hr />
 
@@ -225,6 +222,23 @@
           placeholder="Any allergies, decoration requests, etc."
         ></textarea>
 
+        <hr />
+        <!--Success message-->
+        <!-- show d-none is for the message to be hidden initially -->
+        <div
+          id="successMessage"
+          class="alert alert-secondary show d-none"
+          role="alert"
+        >
+          Thank you! Your order request has been submitted. We'll be in touch
+          soon!
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="alert"
+            aria-label="Close"
+          ></button>
+        </div>
         <hr />
         <section class="button">
           <input type="submit" value="Submit" />
