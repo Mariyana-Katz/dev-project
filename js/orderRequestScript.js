@@ -54,7 +54,9 @@ document.addEventListener("DOMContentLoaded", function() {
 } else {
         console.error("Form element with ID 'form-request' not found.");
     }
+    // Call the functions to populate the cake size and filling options
 getCakeSize();
+getCakeFilling();
 });
 
 // This script handles the selection of cake size and updates the description accordingly.
@@ -88,25 +90,42 @@ function getCakeSize() {
         .catch(error => {
             console.error('Error:', error);
             alert("There was an error selecting the size.");
-        });
+        })
 }
-//  document.addEventListener("DOMContentLoaded", function () {
-//     const selectSize = document.getElementById("size");
-//     const descriptionElement = document.getElementById("sizeDescription");
 
-//     selectSize.addEventListener("change", function (event) {
-//         const selectedValue = event.target.value; // e.g. "6-inch|8-12"
 
-//         // Split the value into size and servings
-//         const [size, servings] = selectedValue.split('|');
 
-//         // Update description text
-//         if (descriptionElement) {
-//             descriptionElement.textContent = `Size: ${size}, Servings: ${servings}`;
-//         }
-
-        
-//     });
-
-//  }
-// );
+// This script handles the selection of cake filling and updates the description accordingly.
+// It also makes an AJAX call to send the selected filling to the server.
+function getCakeFilling() {
+    // Make AJAX call sending both filling and servings
+    fetch(`http://localhost:8080/cakeFilling/all`, {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json'
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
+        // Handle the response data function for populating the select element
+        .then(data => {
+            console.log('Success:', data);
+              const select = document.getElementById("cake-filling");
+//populate the select element with options from the database.
+                data.forEach(item => {
+                    const option = document.createElement("option");
+                    option.value = `${item.cakeFilling}`;
+                    option.textContent = `${item.cakeFilling}`;
+                    select.appendChild(option);
+                });
+                        // alert("cake filling selected successfully!");
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert("There was an error selecting the filling.");}
+        );
+    }
