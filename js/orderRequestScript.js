@@ -57,6 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Call the functions to populate the cake size and filling options
 getCakeSize();
 getCakeFilling();
+getCakeSponge();
 });
 
 // This script handles the selection of cake size and updates the description accordingly.
@@ -128,4 +129,40 @@ function getCakeFilling() {
             console.error('Error:', error);
             alert("There was an error selecting the filling.");}
         );
+    }
+
+
+    // This script handles the selection of sponge and updates the description accordingly.
+// It also makes an AJAX call to send the selected sponge to the server.
+function getCakeSponge() {
+    // Make AJAX call sending both sponge and servings
+    fetch(`http://localhost:8080/spongeType/all`, {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json'
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
+        // Handle the response data function for populating the select element
+        .then(data => {
+            console.log('Success:', data);
+              const select = document.getElementById("sponge-type");
+//populate the select element with options from the database.
+                data.forEach(item => {
+                    const option = document.createElement("option");
+                    option.value = `${item.spongeType}`;
+                    option.textContent = `${item.spongeType}`;
+                    select.appendChild(option);
+                });
+                        // alert("sponge selected successfully!");
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert("There was an error selecting the sponge.");
+        });
     }
