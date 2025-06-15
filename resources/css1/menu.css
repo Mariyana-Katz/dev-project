@@ -31,7 +31,7 @@
 
 
 .hero{
-    background-image: url("../images/different-pieces-cake_.avif")  ;
+   background-image: url("../images/cake2/different-pieces-cake_.webp")  ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -62,6 +62,13 @@
     justify-content: center;
 
 }
+
+
+/* shadow for the contact us button */
+.intro-link{
+    filter: drop-shadow(10px 10px 10px rgb(126, 2, 99)); 
+}
+
 
 
 

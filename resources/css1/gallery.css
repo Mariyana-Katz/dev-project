@@ -25,7 +25,7 @@
     font-family: 'Lobster', sans-serif;
 }
 
-
+/* 
 .banner{
     background-image: url("https://www.shutterstock.com/image-vector/pastry-sweet-bakery-seamless-pattern-600nw-2143884193.jpg") ;
     color: rgb(126, 2, 99);
@@ -33,7 +33,7 @@
     font-size: large;
     text-align: center;
     padding: 10px 0; 
-}
+} */
 
 #Logo-picture1{
  
@@ -46,6 +46,13 @@
    
 
 }
+
+
+/* shadow for the contact us button */
+.intro-link{
+    filter: drop-shadow(10px 10px 10px rgb(126, 2, 99)); 
+}
+
 
 #title{
     text-align: center;
@@ -60,7 +67,7 @@
 
 
 .hero{
-    background-image: url("../images/different-pieces-cake_.avif")  ;
+   background-image: url("../images/cake2/different-pieces-cake_.webp")  ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -18,14 +18,17 @@
       console.error("Search form or input not found.");
     }
   });
-  // Get the button:
+
+
+// script for the button that scrolls to the top of the page
+// Get the button that scrolls to the top of the page
+  // This button will be shown when the user scrolls down 20px from the top of the document
   let mybutton = document.getElementById("myBtn");
 
   // Scrolling down 20px from the top of the document, show the button
   window.onscroll = function () {
     scrollFunction();
   };
-
   function scrollFunction() {
     if (
       document.body.scrollTop > 20 ||
@@ -36,13 +39,16 @@
       mybutton.style.display = "none";
     }
   }
-
   // When clicked on the button, it's scroll to the top of the document
   function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }
+//end of the script for the button
 
+
+  // Function initialize the Bootstrap carousel
+  // This will automatically start the carousel with a 5-second interval
   document.addEventListener("DOMContentLoaded", function () {
     const myCarouselElement = document.querySelector("#slider");
 
