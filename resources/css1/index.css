@@ -1,302 +1,259 @@
-
-
-
-
-
-.navbar{
-    background-color: rgb(231, 204, 228);
-    position: sticky;/*makes the navbar static */
-    top: 0; /* the navbar is on the top of the page*/
-    z-index: 1000; /* Keeps it above other elements */
-    width: 100%;
-    padding: 10px 20px;
+.navbar {
+  background-color: rgb(231, 204, 228);
+  position: sticky; /*makes the navbar static */
+  top: 0; /* the navbar is on the top of the page*/
+  z-index: 1000; /* Keeps it above other elements */
+  width: 100%;
+  padding: 10px 20px;
 }
 
 .navbar li {
-    display: inline-block; /* put the elements of the navbar in horizontal order*/
-    padding: 0 20px;
-
+  display: inline-block; /* put the elements of the navbar in horizontal order*/
+  padding: 0 20px;
 }
 
 /*apply for all of the a from the navbar*/
-.navbar a{
-    text-decoration: none;
-    color: rgb(245, 235, 241);
-
+.navbar a {
+  text-decoration: none;
+  color: rgb(245, 235, 241);
 }
 
-
-.name{
-    padding-bottom:25px;
-    margin-bottom: 20px;
-    font-size: 60px;
+.name {
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+  font-size: 60px;
 }
 
-
-
-#button{
-    padding: 12px 24px; 
-    font-size: 18px; 
-    background-color:  rgb(234, 193, 247);
-    border-radius: 10%;
-    filter: drop-shadow(10px 10px 10px rgb(126, 2, 99)); 
+#button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: rgb(234, 193, 247);
+  border-radius: 10%;
+  filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
 }
-
 
 /* shadow for the contact us button */
-.intro-link{
-    filter: drop-shadow(10px 10px 10px rgb(126, 2, 99)); 
+.intro-link {
+  filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
 }
 
-#Logo-picture1{
- 
-    /* giving a shadow to the image */
-    filter: drop-shadow(10px 10px 10px rgb(126, 2, 99)); 
-    border-radius: 10%;
-    width: 150px;
-    display:flex;
-    justify-content: center;
-   
+#Logo-picture1 {
+  /* giving a shadow to the image */
+  filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
+  border-radius: 10%;
+  width: 150px;
+  display: flex;
+  justify-content: center;
 }
 
-.logo-section{
-    font-size: 22px;
-     display: flex; /* Enables flexbox */
-    flex-direction:row; /* Stack items vertically */
-    align-items: center; /* Centers horizontally */
-    justify-content: center; /* Centers vertically */
-    text-align: center; /* Centers text within elements */
-    height: 100vh; /* Makes the section full height of the viewport */
-    width: 100vw; /* Ensures it takes full screen width */
-    padding: 30px; /* Adds spacing around content */
-   
+.logo-section {
+  font-size: 22px;
+  display: flex; /* Enables flexbox */
+  flex-direction: row; /* Stack items vertically */
+  align-items: center; /* Centers horizontally */
+  justify-content: center; /* Centers vertically */
+  text-align: center; /* Centers text within elements */
+  height: 100vh; /* Makes the section full height of the viewport */
+  width: 100vw; /* Ensures it takes full screen width */
+  padding: 30px; /* Adds spacing around content */
 }
 
-#Cakes-and-bakes{
-    color:rgb(126, 2, 99);
-    font-size: 80px;
-    text-align: center;
-    align-items: center;
-    display: flex ;
-    margin-bottom: 90px;
-
-
+#Cakes-and-bakes {
+  color: rgb(126, 2, 99);
+  font-size: 80px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 90px;
 }
 
-.titleTop{
-    font-family:'Lobster', sans-serif;
-        color: rgb(126, 2, 99);
-        font-size: large;
-        text-align:center;
-        justify-content: center;
-        align-items: center;
-
+.titleTop {
+  font-family: "Lobster", sans-serif;
+  color: rgb(126, 2, 99);
+  font-size: large;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-    
-           
-    .hero{
-        background-image: url("../images/cake2/different-pieces-cake_.webp")  ;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        font-family:'Lobster', sans-serif;
-        display: flex;
-        color: rgb(126, 2, 99);
-        font-size: large;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start; /* <-- this keeps content at the top */
-        align-items: center;
-        height: 70vh; 
-        padding-top: 5%;
-            
-           
-    }
-    
+.hero {
+  background-image: url("../images/cake2/different-pieces-cake_.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Lobster", sans-serif;
+  display: flex;
+  color: rgb(126, 2, 99);
+  font-size: large;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* <-- this keeps content at the top */
+  align-items: center;
+  height: 70vh;
+  padding-top: 5%;
+}
 
-
-        .body-container{
-            background-color: rgb(248, 241, 245);
-            font-family: 'Playfair Display', sans-serif  !important;
-        }
-
-   
-
+.body-container {
+  background-color: rgb(248, 241, 245);
+  font-family: "Playfair Display", sans-serif !important;
+}
 
 /* Card css */
-.container{
-    width: 1000px;
-    font-family: 'Playfair Display', sans-serif  !important;
-    text-size-adjust: 14;
+.container {
+  width: 1000px;
+  font-family: "Playfair Display", sans-serif !important;
+  text-size-adjust: 14;
 }
 
 /* Universal box-sizing */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .card-img-top {
-    height: 300px; /* or any height that works for all images */
-    object-fit: cover;
-  }
-
-  .card-title{
-    color:rgb(126, 2, 99);
-  
-  }
-
-  .btn-link{
-    color:rgb(126, 2, 99);
-  }
-
-  
-/* shadow for the button */
-.btn{
-    filter: drop-shadow(10px 10px 10px rgb(126, 2, 99)); 
+  height: 300px; /* or any height that works for all images */
+  object-fit: cover;
 }
 
-  
+.card-title {
+  color: rgb(126, 2, 99);
+}
 
+.btn-link {
+  color: rgb(126, 2, 99);
+}
 
+/* shadow for the button */
+.btn {
+  filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
+}
 
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: rgb(234, 193, 247); /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(234, 193, 247); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
 }
-  
-  #myBtn:hover {
-        background-color: #555; /* Add a dark-grey background on hover */
-    }
 
-  /* Carousel css */
-    .carousel-item img {
-        width: 100%;
-        height:100%;
-        max-height: 500px; 
-        object-fit: contain; 
-    }
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
 
+/* Carousel css */
 
-    .carousel-item {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 300px; 
-    background-color:  rgb(246, 231, 250);
-       
-    }
-    
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  background-color: rgb(246, 231, 250);
+}
+
 .carousel {
-    max-width: 100%;
-    max-height: 700px; 
-    padding-top: 5%;
-    /* overflow: hidden; */
+  max-width: 100%;
+  max-height: 700px;
+  padding-top: 5%;
+  /* overflow: hidden; */
 }
 
-
-.icons{
-    font-family: 'Playfair Display', sans-serif  !important;
-
+.icons {
+  font-family: "Playfair Display", sans-serif !important;
 }
 
-.carousel-caption{
-    color:rgb(110, 17, 87);
+.carousel-caption {
+  color: rgb(121, 22, 94);
 }
 
-.title1{
-    justify-content: center;
-    font-family: 'Lobster', sans-serif  !important;
-    color: rgb(126, 2, 99);
- 
-    
+.title1 {
+  justify-content: center;
+  font-family: "Lobster", sans-serif !important;
+  color: rgb(126, 2, 99);
 }
-
-
-
-
-
 
 /* footer css
  */
-footer{
-    background-color:  rgb(246, 231, 250);
-    color: rgb(126, 2, 99);
-    text-align: center;
-    padding: 20px 0;
+footer {
+  background-color: rgb(246, 231, 250);
+  color: rgb(126, 2, 99);
+  text-align: center;
+  padding: 20px 0;
 }
 
-.footer-container{
-    display: flex;
-} 
-
-.cell{
-    flex: 1;
+.footer-container {
+  display: flex;
 }
 
-.contact-info, .social-media, .copyright{
-    margin: 10px;
-    text-align: center;
+.cell {
+  flex: 1;
 }
-.contact-info h3, .social-media h3,.copyright {
-    font-size: 18px;
-    margin-bottom: 10px;
-    text-align: center;
-   
+
+.contact-info,
+.social-media,
+.copyright {
+  margin: 10px;
+  text-align: center;
+}
+.contact-info h3,
+.social-media h3,
+.copyright {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .contact-info p {
-    margin: 5px 0;
-    text-align: center;
+  margin: 5px 0;
+  text-align: center;
 }
 
-.mail{
-    color: rgb(126, 2, 99);
+.mail {
+  color: rgb(126, 2, 99);
 }
 
 .social-media a {
-    color: rgb(222, 130, 243);
-    font-size: 20px;
-    height: 50px;
-    width: 50px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    background-color: white;
-    border-radius: 50%;
-    text-decoration: none;
+  color: rgb(222, 130, 243);
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: white;
+  border-radius: 50%;
+  text-decoration: none;
 }
 
-
 .social-media a:hover {
-    color: #ff7b7b;
+  color: #ff7b7b;
 }
 
 .copyright {
-    margin-top: 10px;
-    font-size: 16px;
-    font-weight: 100%;
-    opacity: 0.5;
-    align-self:center;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 100%;
+  opacity: 0.5;
+  align-self: center;
 }
 
-.top-button{
-    background-color: rgb(126, 2, 99);
-    color: rgb(126, 2, 99);
+.top-button {
+  background-color: rgb(126, 2, 99);
+  color: rgb(126, 2, 99);
 }
-
-
-

@@ -57,7 +57,19 @@
       touch: false,
     });
   });
+const container = document.getElementById('carousel-inner');
 
+  container.addEventListener('mouseenter', () => {
+    container.classList.add('show');
+  });
 
- 
+  container.addEventListener('mouseleave', () => {
+    container.classList.remove('show');
+  });
+
+  const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
   
+
+

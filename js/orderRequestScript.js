@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
 } else {
         console.error("Form element with ID 'form-request' not found.");
     }
-    // Call the functions to populate the cake size and filling options
+    // Calling the functions to populate the cake size and filling options
 getCakeSize();
 getCakeFilling();
 getCakeSponge();
