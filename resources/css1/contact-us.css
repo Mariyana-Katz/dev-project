@@ -1,18 +1,25 @@
 .social-media a {
-    color: white;
-    font-size: 20px;
-    height: 50px;
-    width: 50px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    background-color: black;
-    border-radius: 50%;
-    text-decoration: none;
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: black;
+  border-radius: 50%;
+  text-decoration: none;
 }
 
-.cell{
-    flex: 1;
+.cell {
+  flex: 1;
 }
 
+.contact {
+  filter: drop-shadow(10px 10px 10px rgb(116, 90, 51));
+}
+
+.nav-link {
+  filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
+}

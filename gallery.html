@@ -295,7 +295,17 @@
       <img id="lightbox-img" src="" alt="" />
     </div>
 
+    <!-- button for going back to the top -->
+    <button
+      onclick="topFunction()"
+      class="top-button"
+      id="myBtn"
+      title="Go to top"
+    >
+      Top
+    </button>
     <!-- footer section -->
+
     <footer>
       <div class="footer container-fluid">
         <div class="row">
@@ -339,24 +349,8 @@
       </div>
     </footer>
 
-    <script>
-      // function for opening the lightbox
-      function openLightbox(image) {
-        document.getElementById("lightbox").style.display = "flex";
-        document.getElementById("lightbox-img").src = image.src;
-      }
-      //scontent-lga3-3.xx.fbcdn.net/v/t39.30808-6/480218889_1124669669454288_9053807819432811425_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=pz72LlH1kTwQ7kNvgFO_qou&_nc_oc=Adj6T86mM4jm4lSPucS4IpUhdJ5Y7KQ_DFwIssouFalAPi9BuDiNHDjRIaUn1-S_gHU&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=yuZO_E3jzOT6lo84T9Pd_Q&oh=00_AYF0cqlRYGonnYvfl4b8j8Cb5B-lBt9aBKI1WgoRhVUYHw&oe=67DA972B
-
-      //function to close the lightbox
-
-      https: function closeLightbox() {
-        document.getElementById("lightbox").style.display = "none";
-      }
-
-      document.getElementById("button").addEventListener("click", function () {
-        window.location.href = "order-form.html"; // have to be change to order form html page
-      });
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

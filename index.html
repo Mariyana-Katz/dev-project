@@ -19,21 +19,9 @@
       href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <!-- React and Babel CDNs -->
-    <script
-      src="https://unpkg.com/react@18/umd/react.development.js"
-      crossorigin
-    ></script>
-    <script
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-      crossorigin
-    ></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
 
   <body class="body-container">
-    <div id="root"></div>
-
     <!-- intro section -->
     <section class="intro">
       <div class="container-fluid">
@@ -209,7 +197,7 @@
               />
 
               <div class="card-body">
-                <h5 class="card-title fw-bold pb-4">Custom Cakes</h5>
+                <h5 class="card-title fw-bold pb-2">Custom Cakes</h5>
                 <p class="card-text">
                   Want to make your celebration unforgettable? Then you need a
                   one-of-a-kind custom cake from Cakes and Bakes by
@@ -230,11 +218,13 @@
               />
               <div class="card-body">
                 <h5 class="card-title fw-bold">Decorated cookies</h5>
-                <p class="card-text pt-5">
+                <p class="card-text pt-3">
                   Cute, colorful, and almost too pretty to eat—our decorated
                   cookies bring the fun and the yum to any party.
                 </p>
-                <a href="order-form.html" class="btn btn-success order-button"
+                <a
+                  href="order-form.html"
+                  class="btn btn-success order-button mt-3"
                   >Order decorated cookies
                 </a>
               </div>
@@ -634,13 +624,5 @@
     <!-- Bootstrap Bundle JS  -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
-    <!-- React script -->
-    <script type="text/babel" src="App.js"></script>
-    <script type="text/babel" src="myComponent.js"></script>
-    <!-- Initialize root -->
-    <script type="text/babel">
-      const root = ReactDOM.createRoot(document.getElementById("react-root"));
-      root.render(<App />);
-    </script>
   </body>
 </html>
