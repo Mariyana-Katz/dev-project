@@ -1,210 +1,202 @@
-
-
-
-
 /*apply for all of the a from the navbar*/
-.navbar{
-    background-color:  rgb(241, 197, 236);
-    position: sticky;/*makes the navbar static */
-    top: 0; /* the navbar is on the top of the page*/
-    z-index: 1000; /* Keeps it above other elements */
-    width: 100%;
-    padding: 10px 20px;
+.navbar {
+  background-color: rgb(241, 197, 236);
+  position: sticky; /*makes the navbar static */
+  top: 0; /* the navbar is on the top of the page*/
+  z-index: 1000; /* Keeps it above other elements */
+  width: 100%;
+  padding: 10px 20px;
 }
 
-.navbar li{
-    display: inline-block; /* put the elements of the navbar in horizontal order*/
-    padding: 0 20px;
-
+.navbar li {
+  display: inline-block; /* put the elements of the navbar in horizontal order*/
+  padding: 0 20px;
 }
 
 /*apply for all of the a from the navbar*/
-.navbar a{
-    text-decoration: none;
-    color: white;
-
+.navbar a {
+  text-decoration: none;
+  color: white;
 }
 
-.hero{
-    background-image: url("../images/cake2/different-pieces-cake_.webp")  ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    font-family:'Lobster', sans-serif;
-    display: flex;
-    color: rgb(126, 2, 99);
-    font-size: large;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; /* <-- this keeps content at the top */
-    align-items: center;
-    padding-top: 80px;
-    height: 100vh; 
-        
-       
+.hero {
+  background-image: url("../images/cake2/different-pieces-cake_.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Lobster", sans-serif;
+  display: flex;
+  color: rgb(126, 2, 99);
+  font-size: large;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* <-- this keeps content at the top */
+  align-items: center;
+  padding-top: 80px;
+  height: 100vh;
 }
-
 
 /* General Styling */
 body {
-    font-family: 'Playfair Display', sans-serif  !important;
-    background-color: rgb(248, 241, 245);
-    text-align: center;
-    padding: 20px;
+  font-family: "Playfair Display", sans-serif !important;
+  background-color: rgb(248, 241, 245);
+  text-align: center;
+  padding: 20px;
 }
 
 /* Form Container */
 form {
-    font-family: 'Playfair Display', sans-serif  !important;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
-    margin: auto;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Playfair Display", sans-serif !important;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .date {
-    margin-bottom: 15px;
-    text-align: left;
+  margin-bottom: 15px;
+  text-align: left;
 }
 
 /* Label Styling */
 .date label {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-    color: black;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: black;
 }
 
-#Logo-picture{
-    border-radius: 50%;
-    filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
-    
+#Logo-picture {
+  border-radius: 50%;
+  filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
 }
 
 /* Input Field Styling */
 .date input[type="date"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    box-sizing: border-box;
-    background-color: #fff;
-    color: #333;
-    cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
 }
 
 /* Styling on Hover */
 .date input[type="date"]:hover {
-    border-color:rgb(126, 2, 99);
+  border-color: rgb(126, 2, 99);
 }
-
 
 /* Form Headings */
 h1 {
-    color:rgb(126, 2, 99);
-    font-size: 24px;
-    font-family: 'Playfair Display', sans-serif  !important;
+  color: rgb(126, 2, 99);
+  font-size: 24px;
+  font-family: "Playfair Display", sans-serif !important;
 }
 
 /* Description */
 p.description {
-    font-size: 14px;
-    color: #555;
-    text-align: left;
-    padding: 10px;
-    background: #ffff;
-    border-radius: 5px;
-    font-family: 'Playfair Display', sans-serif  !important;
+  font-size: 14px;
+  color: #555;
+  text-align: left;
+  padding: 10px;
+  background: #ffff;
+  border-radius: 5px;
+  font-family: "Playfair Display", sans-serif !important;
 }
 
 /* Labels */
 label {
-    font-weight: bold;
-    display: block;
-    margin: 10px 0 5px;
-    text-align: left;
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 5px;
+  text-align: left;
 }
 
 /* Inputs and Select Fields */
-input, select, textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 /* Radio Buttons */
 input[type="radio"] {
-    width: auto;
-    margin-right: 5px;
-    /* position:relative; */
-    display: inline-block;
+  width: auto;
+  margin-right: 5px;
+  /* position:relative; */
+  display: inline-block;
 }
 
 /* Fondant Section */
 .fondant span {
-    font-weight: bold;
-    
+  font-weight: bold;
 }
 
 .fondant {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: start;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: start;
 }
-
 
 .fondant input[type="radio"],
 .fondant label {
-    display: inline-block;
-    margin: 0;
+  display: inline-block;
+  margin: 0;
 }
 
 /* Submit Button */
 button {
-    background-color: rgb(126, 2, 99);
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  filter: drop-shadow(10px 10px 10px rgb(143, 110, 49));
 }
 
 button:hover {
-    background-color:rgb(126, 2, 99);
+  background-color: rgb(235, 206, 145);
 }
 
 /* Add Spacing for Sections */
 section {
-    margin-bottom: 15px;
-    
+  margin-bottom: 15px;
 }
 
 /* Line Break Style */
 hr {
-    border: 0;
-    height: 1px;
-    background: #ddd;
-    margin: 15px 0;
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 15px 0;
 }
 
-.button{
-    padding: 12 24;
-    margin: 0 220px;
-    /* background-color: rgb(126, 2, 99); */
-    border: none;
-    cursor: pointer;
-    font-weight: 100;
-    font-size: 16px;
-    transition: background-color 0.3s ease; /* Smooth transition */
-}
+/* .button {
+  padding: 12 24;
+  margin: 0 220px;
+  /* background-color: rgb(126, 2, 99); */
+/* border: none;
+  cursor: pointer;
+  font-weight: 100;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Smooth transition */
 
+/* }   */
+
+.info {
+  filter: drop-shadow(10px 10px 10px rgb(18, 95, 35));
+}

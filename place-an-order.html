@@ -228,22 +228,6 @@
         ></textarea>
 
         <hr />
-        <!--Success message-->
-        <!-- show d-none is for the message to be hidden initially -->
-        <div
-          id="successMessage"
-          class="alert alert-success show d-none"
-          role="alert"
-        >
-          Thank you! Your order request has been submitted. We'll be in touch
-          soon!
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="alert"
-            aria-label="Close"
-          ></button>
-        </div>
 
         <!-- //important Notes section -->
         <section class="important text-danger d-flex flex-column">
@@ -290,6 +274,24 @@
         </section>
         <!-- end of important notes section -->
         <hr />
+
+        <!--Success message-->
+        <!-- show d-none is for the message to be hidden initially -->
+        <div
+          id="successMessage"
+          class="alert alert-success show d-none"
+          role="alert"
+        >
+          Thank you! Your order request has been submitted. We'll be in touch
+          soon!
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="alert"
+            aria-label="Close"
+          ></button>
+        </div>
+        <br />
         <section class="button">
           <input type="submit" value="Submit your order" />
         </section>
@@ -357,5 +359,6 @@
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/orderRequestScript.js"></script>
   </body>
 </html>
