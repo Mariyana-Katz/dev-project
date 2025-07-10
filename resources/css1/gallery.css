@@ -24,8 +24,6 @@
   font-family: "Lobster", sans-serif;
 }
 
-
-
 #Logo-picture1 {
   /* giving a shadow to the image */
   filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
@@ -38,6 +36,13 @@
 /* shadow for the contact us button */
 .intro-link {
   filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
+}
+
+/* hovering effect for the contact us */
+.intro-link:hover {
+  transform: scale(1.05); /* Zoom in slightly */
+  opacity: 0.8; /* Slightly fade the element */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
 }
 
 #title {

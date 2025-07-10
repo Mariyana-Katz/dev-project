@@ -37,6 +37,13 @@
   filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
 }
 
+/* hovering effect for the contact us */
+.intro-link:hover {
+  transform: scale(1.05); /* Zoom in slightly */
+  opacity: 0.8; /* Slightly fade the element */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
 #Logo-picture1 {
   /* giving a shadow to the image */
   filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
@@ -129,6 +136,12 @@
   filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
 }
 
+.btn:hover {
+  transform: scale(1.05); /* Zoom in slightly */
+  opacity: 0.8; /* Slightly fade the element */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -146,7 +159,10 @@
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #f1a9e8; /* Add a dark-grey background on hover */
+  transform: scale(1.05); /* Zoom in slightly */
+  opacity: 0.8; /* Slightly fade the element */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
 }
 
 /* Carousel css */
@@ -227,6 +243,12 @@ footer {
   color: rgb(126, 2, 99);
 }
 
+.mail:hover {
+  transform: scale(1.05); /* Zoom in slightly */
+  opacity: 0.8; /* Slightly fade the element */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
 .social-media a {
   color: rgb(222, 130, 243);
   font-size: 20px;
@@ -243,6 +265,9 @@ footer {
 
 .social-media a:hover {
   color: #8b0b78;
+  transform: scale(1.05); /* Zoom in slightly */
+  opacity: 0.8; /* Slightly fade the element */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
 }
 
 .copyright {

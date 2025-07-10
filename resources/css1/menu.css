@@ -51,6 +51,13 @@
   filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
 }
 
+/* hovering effect for the contact us */
+.intro-link:hover {
+  transform: scale(1.05); /* Zoom in slightly */
+  opacity: 0.8; /* Slightly fade the element */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
 .body-container {
   background-color: rgb(248, 241, 245);
   font-family: "Playfair Display", sans-serif !important;
