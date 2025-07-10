@@ -45,6 +45,12 @@
   transition: all 0.3s ease-in-out; /* Smooth transition */
 }
 
+.story:hover {
+  transform: scale(1.05); /* Zoom in slightly */
+  opacity: 0.8; /* Slightly fade the element */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
 #title {
   text-align: center;
   font-size: 80px;

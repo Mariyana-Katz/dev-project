@@ -46,6 +46,12 @@
   justify-content: center;
 }
 
+.story:hover {
+  transform: scale(1.05); /* Zoom in slightly */
+  opacity: 0.8; /* Slightly fade the element */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
 /* shadow for the contact us button */
 .intro-link {
   filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
@@ -70,6 +76,16 @@
   background-color: rgb(234, 193, 247);
   border-radius: 10%;
   filter: drop-shadow(10px 10px 10px rgb(126, 2, 99));
+  transform: scale(1.05); /* Zoom in slightly */
+  opacity: 0.8; /* Slightly fade the element */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+#button:hover {
+  background-color: #f1a9e8; /* Add a dark-grey background on hover */
+  transform: scale(1.05); /* Zoom in slightly */
+  opacity: 0.8; /* Slightly fade the element */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
 }
 
 #title {
@@ -139,9 +155,11 @@
   font-size: 18px; /* Increase font size */
 }
 
-.top-button {
-  background-color: rgb(173, 92, 156);
-  color: rgb(189, 174, 186);
+#myBtn:hover {
+  background-color: #f1a9e8; /* Add a dark-grey background on hover */
+  transform: scale(1.05); /* Zoom in slightly */
+  opacity: 0.8; /* Slightly fade the element */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
 }
 
 /* footer section */
